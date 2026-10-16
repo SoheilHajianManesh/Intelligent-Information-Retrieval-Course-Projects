@@ -1,0 +1,1642 @@
+[
+  {
+    "persona_id": 1,
+    "name": "Sarah Chen",
+    "age": 27,
+    "level": "PhD student, 2nd year",
+    "university": "Stanford University",
+    "research_area": "Information Retrieval",
+    "advisor": "Prof. Manning",
+    "background": "Strong in ML, moderate in NLP. Previously worked at Google for 2 years",
+    "current_project": "Working on efficient neural ranking for web search",
+    "programming_skills": ["Python", "PyTorch", "Elasticsearch"],
+    "interests": ["hiking", "reading sci-fi", "playing violin"],
+    "initial_query": "neural networks",
+    "information_need": {
+      "broad_area": "Information Retrieval",
+      "specific_topic": "Neural ranking models for passage retrieval",
+      "sub_topics": ["BERT-based rankers", "cross-encoders"],
+      "year_range": "2019-2023",
+      "paper_type": "conference papers",
+      "preferred_venues": ["SIGIR", "ACL", "EMNLP"],
+      "specific_aspects": ["efficiency", "domain adaptation"],
+      "exclude": "pure theoretical papers"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "1-1-r",
+        "title": "Passage Re-ranking with BERT",
+        "authors": "Rodrigo Nogueira, Kyunghyun Cho",
+        "venue": "arXiv",
+        "year": 2019,
+        "url": "https://arxiv.org/abs/1901.04085",
+        "why_relevant": "Foundational work on BERT-based passage ranking, directly addresses neural ranking"
+      },
+      {
+        "paper_id": "1-2-r",
+        "title": "ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT",
+        "authors": "Omar Khattab, Matei Zaharia",
+        "venue": "SIGIR",
+        "year": 2020,
+        "url": "https://arxiv.org/abs/2004.12832",
+        "why_relevant": "Addresses efficiency in BERT-based passage retrieval with late interaction"
+      },
+      {
+        "paper_id": "1-3-r",
+        "title": "CEDR: Contextualized Embeddings for Document Ranking",
+        "authors": "Sean MacAvaney, Andrew Yates, Arman Cohan, Nazli Goharian",
+        "venue": "SIGIR",
+        "year": 2019,
+        "url": "https://arxiv.org/abs/1904.07094",
+        "why_relevant": "Uses contextualized embeddings for document ranking, fits the neural ranking scope"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "1-1-n",
+        "title": "Attention Is All You Need",
+        "authors": "Vaswani et al.",
+        "venue": "NeurIPS",
+        "year": 2017,
+        "url": "https://arxiv.org/abs/1706.03762",
+        "why_misleading": "Contains 'attention' and 'neural' keywords but is about transformer architecture, not ranking"
+      },
+      {
+        "paper_id": "1-2-n",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "authors": "Devlin et al.",
+        "venue": "NAACL",
+        "year": 2019,
+        "url": "https://arxiv.org/abs/1810.04805",
+        "why_misleading": "About BERT pre-training, not specifically about passage ranking applications"
+      },
+      {
+        "paper_id": "1-3-n",
+        "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+        "authors": "Karpukhin et al.",
+        "venue": "EMNLP",
+        "year": 2020,
+        "url": "https://arxiv.org/abs/2004.04906",
+        "why_misleading": "Uses dense retrieval but focused on QA task, not ad-hoc passage ranking"
+      }
+    ]
+  },
+  {
+    "persona_id": 2,
+    "name": "Ahmed Hassan",
+    "age": 24,
+    "level": "Master's student, 1st year",
+    "university": "University of Toronto",
+    "research_area": "Recommender Systems",
+    "advisor": "Dr. Li",
+    "background": "New to deep learning, familiar with collaborative filtering. Bachelor's in Software Engineering",
+    "current_project": "Building a music recommendation system for streaming platform",
+    "programming_skills": ["Python", "TensorFlow", "SQL"],
+    "interests": ["football", "cooking", "photography"],
+    "initial_query": "deep learning",
+    "information_need": {
+      "broad_area": "Recommender Systems",
+      "specific_topic": "Sequential recommendation with transformers",
+      "sub_topics": ["session-based recommendation", "self-attention mechanisms"],
+      "year_range": "2020-2024",
+      "paper_type": "both survey and empirical",
+      "preferred_venues": ["RecSys", "WWW", "KDD"],
+      "specific_aspects": ["cold-start problem", "scalability"],
+      "exclude": "matrix factorization only"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "2-1-r",
+        "title": "BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer",
+        "authors": "Fei Sun, Jun Liu, Jian Wu, Changhua Pei, Xiao Lin, Wenwu Ou, Peng Jiang",
+        "venue": "CIKM",
+        "year": 2019,
+        "url": "https://arxiv.org/abs/1904.06690",
+        "why_relevant": "Uses transformer architecture for sequential recommendation"
+      },
+      {
+        "paper_id": "2-2-r",
+        "title": "Self-Attentive Sequential Recommendation",
+        "authors": "Wang-Cheng Kang, Julian McAuley",
+        "venue": "ICDM",
+        "year": 2018,
+        "url": "https://arxiv.org/abs/1808.09781",
+        "why_relevant": "Pioneering work on self-attention for sequential recommendation"
+      },
+      {
+        "paper_id": "2-3-r",
+        "title": "A Survey on Session-based Recommender Systems",
+        "authors": "Shoujin Wang et al.",
+        "venue": "ACM Computing Surveys",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/1902.04864",
+        "why_relevant": "Comprehensive survey on session-based recommendation, covers transformers"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "2-1-n",
+        "title": "Matrix Factorization Techniques for Recommender Systems",
+        "authors": "Koren, Bell, Volinsky",
+        "venue": "Computer",
+        "year": 2009,
+        "url": "https://ieeexplore.ieee.org/document/5197422",
+        "why_misleading": "Classic recommendation paper but uses matrix factorization, not transformers"
+      },
+      {
+        "paper_id": "2-2-n",
+        "title": "Neural Collaborative Filtering",
+        "authors": "He et al.",
+        "venue": "WWW",
+        "year": 2017,
+        "url": "https://arxiv.org/abs/1708.05031",
+        "why_misleading": "Neural recommendation but doesn't use transformers or sequential modeling"
+      },
+      {
+        "paper_id": "2-3-n",
+        "title": "Wide & Deep Learning for Recommender Systems",
+        "authors": "Cheng et al.",
+        "venue": "DLRS",
+        "year": 2016,
+        "url": "https://arxiv.org/abs/1606.07792",
+        "why_misleading": "Deep learning for recommendation but doesn't use sequential or attention mechanisms"
+      }
+    ]
+  },
+  {
+    "persona_id": 3,
+    "name": "Maria Rodriguez",
+    "age": 29,
+    "level": "PhD student, 3rd year",
+    "university": "ETH Zurich",
+    "research_area": "Natural Language Processing",
+    "advisor": "Prof. Müller",
+    "background": "Expert in transformers, working on multilingual NLP. Native Spanish speaker",
+    "current_project": "Cross-lingual transfer for indigenous Latin American languages",
+    "programming_skills": ["Python", "PyTorch", "Hugging Face", "Rust"],
+    "interests": ["traveling", "learning languages", "salsa dancing"],
+    "initial_query": "BERT models",
+    "information_need": {
+      "broad_area": "Natural Language Processing",
+      "specific_topic": "Cross-lingual transfer learning for low-resource languages",
+      "sub_topics": ["mBERT", "XLM-R", "adapter-based methods"],
+      "year_range": "2021-2024",
+      "paper_type": "empirical studies",
+      "preferred_venues": ["ACL", "EMNLP", "NAACL", "EACL"],
+      "specific_aspects": ["language typology", "performance on Asian languages"],
+      "exclude": "English-only experiments"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "3-1-r",
+        "title": "Unsupervised Cross-lingual Representation Learning at Scale",
+        "authors": "Alexis Conneau, Kartikay Khandelwal, Naman Goyal, et al.",
+        "venue": "ACL",
+        "year": 2020,
+        "url": "https://arxiv.org/abs/1911.02116",
+        "why_relevant": "Introduces XLM-R for cross-lingual transfer at scale"
+      },
+      {
+        "paper_id": "3-2-r",
+        "title": "MAD-X: An Adapter-Based Framework for Multi-Task Cross-Lingual Transfer",
+        "authors": "Jonas Pfeiffer, Ivan Vulić, Iryna Gurevych, Sebastian Ruder",
+        "venue": "EMNLP",
+        "year": 2020,
+        "url": "https://arxiv.org/abs/2005.00052",
+        "why_relevant": "Adapter-based methods for cross-lingual transfer, covers low-resource scenarios"
+      },
+      {
+        "paper_id": "3-3-r",
+        "title": "Emerging Cross-lingual Structure in Pretrained Language Models",
+        "authors": "Shijie Wu, Mark Dredze",
+        "venue": "ACL",
+        "year": 2020,
+        "url": "https://arxiv.org/abs/1911.01464",
+        "why_relevant": "Studies how mBERT learns cross-lingual representations"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "3-1-n",
+        "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+        "authors": "Liu et al.",
+        "venue": "arXiv",
+        "year": 2019,
+        "url": "https://arxiv.org/abs/1907.11692",
+        "why_misleading": "Improved BERT training but English-only, not multilingual"
+      },
+      {
+        "paper_id": "3-2-n",
+        "title": "Language Models are Few-Shot Learners",
+        "authors": "Brown et al.",
+        "venue": "NeurIPS",
+        "year": 2020,
+        "url": "https://arxiv.org/abs/2005.14165",
+        "why_misleading": "GPT-3 paper mentions multilinguality but doesn't focus on low-resource transfer"
+      },
+      {
+        "paper_id": "3-3-n",
+        "title": "Universal Language Model Fine-tuning for Text Classification",
+        "authors": "Howard, Ruder",
+        "venue": "ACL",
+        "year": 2018,
+        "url": "https://arxiv.org/abs/1801.06146",
+        "why_misleading": "Transfer learning for NLP but monolingual, predates multilingual models"
+      }
+    ]
+  },
+  {
+    "persona_id": 4,
+    "name": "Kevin Park",
+    "age": 25,
+    "level": "Master's student, 2nd year",
+    "university": "KAIST",
+    "research_area": "Computer Vision",
+    "advisor": "Prof. Kim",
+    "background": "Strong in CNNs, learning about vision transformers. Did internship at Samsung AI",
+    "current_project": "Object detection for autonomous driving",
+    "programming_skills": ["Python", "PyTorch", "OpenCV", "C++"],
+    "interests": ["gaming", "basketball", "drone flying"],
+    "initial_query": "transformers",
+    "information_need": {
+      "broad_area": "Computer Vision",
+      "specific_topic": "Vision transformers for object detection",
+      "sub_topics": ["DETR variants", "patch embedding strategies"],
+      "year_range": "2020-2024",
+      "paper_type": "novel methods with code available",
+      "preferred_venues": ["CVPR", "ICCV", "ECCV", "NeurIPS"],
+      "specific_aspects": ["computational efficiency", "small object detection"],
+      "exclude": "image classification only"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "4-1-r",
+        "title": "End-to-End Object Detection with Transformers",
+        "authors": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, et al.",
+        "venue": "ECCV",
+        "year": 2020,
+        "url": "https://arxiv.org/abs/2005.12872",
+        "why_relevant": "Introduces DETR, pioneering work on transformers for object detection"
+      },
+      {
+        "paper_id": "4-2-r",
+        "title": "Deformable DETR: Deformable Transformers for End-to-End Object Detection",
+        "authors": "Xizhou Zhu, Weijie Su, Lewei Lu, et al.",
+        "venue": "ICLR",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/2010.04159",
+        "why_relevant": "Improves DETR efficiency with deformable attention modules"
+      },
+      {
+        "paper_id": "4-3-r",
+        "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+        "authors": "Ze Liu, Yutong Lin, Yue Cao, et al.",
+        "venue": "ICCV",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/2103.14030",
+        "why_relevant": "Efficient vision transformer with hierarchical design, good for detection"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "4-1-n",
+        "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+        "authors": "Dosovitskiy et al.",
+        "venue": "ICLR",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/2010.11929",
+        "why_misleading": "ViT focuses on image classification, not object detection"
+      },
+      {
+        "paper_id": "4-2-n",
+        "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+        "authors": "Ren et al.",
+        "venue": "NeurIPS",
+        "year": 2015,
+        "url": "https://arxiv.org/abs/1506.01497",
+        "why_misleading": "Object detection but uses CNNs, predates transformer-based approaches"
+      },
+      {
+        "paper_id": "4-3-n",
+        "title": "Deep Residual Learning for Image Recognition",
+        "authors": "He et al.",
+        "venue": "CVPR",
+        "year": 2016,
+        "url": "https://arxiv.org/abs/1512.03385",
+        "why_misleading": "Important backbone for vision but is CNN architecture, no transformers"
+      }
+    ]
+  },
+  {
+    "persona_id": 5,
+    "name": "Emily Watson",
+    "age": 26,
+    "level": "PhD student, 1st year",
+    "university": "MIT",
+    "research_area": "Graph Neural Networks",
+    "advisor": "Prof. Leskovec",
+    "background": "Strong math background (Bachelor's in Applied Math), new to GNNs",
+    "current_project": "Graph learning for social network analysis",
+    "programming_skills": ["Python", "PyTorch Geometric", "NetworkX", "Julia"],
+    "interests": ["rock climbing", "chess", "podcasts"],
+    "initial_query": "graph learning",
+    "information_need": {
+      "broad_area": "Graph Machine Learning",
+      "specific_topic": "Graph neural networks for node classification",
+      "sub_topics": ["message passing", "graph attention networks", "over-smoothing problem"],
+      "year_range": "2018-2023",
+      "paper_type": "foundational papers and recent surveys",
+      "preferred_venues": ["ICML", "NeurIPS", "ICLR", "KDD"],
+      "specific_aspects": ["theoretical analysis", "scalability to large graphs"],
+      "exclude": "application-specific only"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "5-1-r",
+        "title": "Graph Attention Networks",
+        "authors": "Petar Veličković, Guillem Cucurull, Arantxa Casanova, et al.",
+        "venue": "ICLR",
+        "year": 2018,
+        "url": "https://arxiv.org/abs/1710.10903",
+        "why_relevant": "Introduces GAT with attention mechanism for graph learning"
+      },
+      {
+        "paper_id": "5-2-r",
+        "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+        "authors": "Thomas N. Kipf, Max Welling",
+        "venue": "ICLR",
+        "year": 2017,
+        "url": "https://arxiv.org/abs/1609.02907",
+        "why_relevant": "Foundational GCN paper for node classification"
+      },
+      {
+        "paper_id": "5-3-r",
+        "title": "A Comprehensive Survey on Graph Neural Networks",
+        "authors": "Zonghan Wu, Shirui Pan, Fengwen Chen, et al.",
+        "venue": "IEEE TNNLS",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/1901.00596",
+        "why_relevant": "Comprehensive survey covering message passing, GATs, and theoretical aspects"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "5-1-n",
+        "title": "node2vec: Scalable Feature Learning for Networks",
+        "authors": "Grover, Leskovec",
+        "venue": "KDD",
+        "year": 2016,
+        "url": "https://arxiv.org/abs/1607.00653",
+        "why_misleading": "Graph embedding method but uses random walks, not neural message passing"
+      },
+      {
+        "paper_id": "5-2-n",
+        "title": "DeepWalk: Online Learning of Social Representations",
+        "authors": "Perozzi, Al-Rfou, Skiena",
+        "venue": "KDD",
+        "year": 2014,
+        "url": "https://arxiv.org/abs/1403.6652",
+        "why_misleading": "Graph embedding technique but predates GNNs, uses shallow models"
+      },
+      {
+        "paper_id": "5-3-n",
+        "title": "Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering",
+        "authors": "Defferrard et al.",
+        "venue": "NeurIPS",
+        "year": 2016,
+        "url": "https://arxiv.org/abs/1606.09375",
+        "why_misleading": "Spectral approach to GNNs, less practical than spatial/message-passing methods"
+      }
+    ]
+  },
+  {
+    "persona_id": 6,
+    "name": "Raj Patel",
+    "age": 23,
+    "level": "Master's student, 1st year",
+    "university": "Carnegie Mellon University",
+    "research_area": "Question Answering",
+    "advisor": "Dr. Brown",
+    "background": "Familiar with BERT, working on first research project. Bachelor's from IIT Delhi",
+    "current_project": "Building QA system for customer support",
+    "programming_skills": ["Python", "TensorFlow", "FastAPI"],
+    "interests": ["cricket", "meditation", "cooking Indian food"],
+    "initial_query": "question answering",
+    "information_need": {
+      "broad_area": "Natural Language Processing",
+      "specific_topic": "Conversational question answering over knowledge bases",
+      "sub_topics": ["multi-hop reasoning", "context tracking"],
+      "year_range": "2020-2024",
+      "paper_type": "empirical studies with datasets",
+      "preferred_venues": ["ACL", "EMNLP", "NAACL"],
+      "specific_aspects": ["benchmark datasets", "evaluation metrics"],
+      "exclude": "extractive QA only"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "6-1-r",
+        "title": "Conversational Question Answering over Knowledge Graphs with Transformer and Graph Attention Networks",
+        "authors": "Endri Kacupaj, Joan Plepi, Kuldeep Singh, et al.",
+        "venue": "EACL",
+        "year": 2021,
+        "url": "https://aclanthology.org/2021.eacl-main.72/",
+        "why_relevant": "Directly addresses conversational QA over KBs with multi-hop reasoning"
+      },
+      {
+        "paper_id": "6-2-r",
+        "title": "QA-GNN: Reasoning with Language Models and Knowledge Graphs for Question Answering",
+        "authors": "Michihiro Yasunaga, Hongyu Ren, Antoine Bosselut, Percy Liang, Jure Leskovec",
+        "venue": "NAACL",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/2104.06378",
+        "why_relevant": "Multi-hop reasoning for QA with knowledge graphs"
+      },
+      {
+        "paper_id": "6-3-r",
+        "title": "Multi-Hop Reading Comprehension through Question Decomposition and Rescoring",
+        "authors": "Sewon Min, Victor Zhong, Luke Zettlemoyer, Hannaneh Hajishirzi",
+        "venue": "ACL",
+        "year": 2019,
+        "url": "https://arxiv.org/abs/1906.02916",
+        "why_relevant": "Multi-hop reasoning with evaluation benchmarks"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "6-1-n",
+        "title": "SQuAD: 100,000+ Questions for Machine Comprehension of Text",
+        "authors": "Rajpurkar et al.",
+        "venue": "EMNLP",
+        "year": 2016,
+        "url": "https://arxiv.org/abs/1606.05250",
+        "why_misleading": "Important QA dataset but focuses on extractive single-passage QA"
+      },
+      {
+        "paper_id": "6-2-n",
+        "title": "Reading Wikipedia to Answer Open-Domain Questions",
+        "authors": "Chen et al.",
+        "venue": "ACL",
+        "year": 2017,
+        "url": "https://arxiv.org/abs/1704.00051",
+        "why_misleading": "Open-domain QA but not conversational, lacks multi-turn interaction"
+      },
+      {
+        "paper_id": "6-3-n",
+        "title": "Bidirectional Attention Flow for Machine Comprehension",
+        "authors": "Seo et al.",
+        "venue": "ICLR",
+        "year": 2017,
+        "url": "https://arxiv.org/abs/1611.01603",
+        "why_misleading": "Reading comprehension but single-turn extractive QA"
+      }
+    ]
+  },
+  {
+    "persona_id": 7,
+    "name": "David Johnson",
+    "age": 30,
+    "level": "PhD student, 4th year",
+    "university": "UC Berkeley",
+    "research_area": "Reinforcement Learning",
+    "advisor": "Prof. Levine",
+    "background": "Expert in RL, interested in language models. Previously at DeepMind for 3 years",
+    "current_project": "Alignment and safety in large language models",
+    "programming_skills": ["Python", "JAX", "C++", "Rust"],
+    "interests": ["marathon running", "philosophy", "board games"],
+    "initial_query": "reinforcement learning",
+    "information_need": {
+      "broad_area": "Natural Language Processing & Reinforcement Learning",
+      "specific_topic": "Reinforcement learning from human feedback for LLMs",
+      "sub_topics": ["PPO for language models", "reward modeling", "alignment"],
+      "year_range": "2022-2024",
+      "paper_type": "both theoretical and empirical",
+      "preferred_venues": ["NeurIPS", "ICML", "ICLR", "ACL"],
+      "specific_aspects": ["scalability", "reward hacking", "safety"],
+      "exclude": "robotics applications"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "7-1-r",
+        "title": "Training language models to follow instructions with human feedback",
+        "authors": "Long Ouyang, Jeff Wu, Xu Jiang, et al.",
+        "venue": "NeurIPS",
+        "year": 2022,
+        "url": "https://arxiv.org/abs/2203.02155",
+        "why_relevant": "Core RLHF paper for instruction following in LLMs (InstructGPT)"
+      },
+      {
+        "paper_id": "7-2-r",
+        "title": "Learning to summarize from human feedback",
+        "authors": "Nisan Stiennon, Long Ouyang, Jeff Wu, et al.",
+        "venue": "NeurIPS",
+        "year": 2020,
+        "url": "https://arxiv.org/abs/2009.01325",
+        "why_relevant": "Foundational work on RLHF for text generation"
+      },
+      {
+        "paper_id": "7-3-r",
+        "title": "Fine-Tuning Language Models from Human Preferences",
+        "authors": "Daniel M. Ziegler, Nisan Stiennon, Jeffrey Wu, et al.",
+        "venue": "arXiv",
+        "year": 2019,
+        "url": "https://arxiv.org/abs/1909.08593",
+        "why_relevant": "Early work on reward modeling and RL for language models"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "7-1-n",
+        "title": "Proximal Policy Optimization Algorithms",
+        "authors": "Schulman et al.",
+        "venue": "arXiv",
+        "year": 2017,
+        "url": "https://arxiv.org/abs/1707.06347",
+        "why_misleading": "General PPO paper but not for language models"
+      },
+      {
+        "paper_id": "7-2-n",
+        "title": "Deep Reinforcement Learning from Human Preferences",
+        "authors": "Christiano et al.",
+        "venue": "NeurIPS",
+        "year": 2017,
+        "url": "https://arxiv.org/abs/1706.03741",
+        "why_misleading": "RLHF for robotics, not language models"
+      },
+      {
+        "paper_id": "7-3-n",
+        "title": "Reward learning from human preferences and demonstrations in Atari",
+        "authors": "Ibarz et al.",
+        "venue": "NeurIPS",
+        "year": 2018,
+        "url": "https://arxiv.org/abs/1811.06521",
+        "why_misleading": "RLHF for games, not NLP"
+      }
+    ]
+  },
+  {
+    "persona_id": 8,
+    "name": "Yuki Tanaka",
+    "age": 24,
+    "level": "Master's student, 2nd year",
+    "university": "University of Tokyo",
+    "research_area": "Sentiment Analysis",
+    "advisor": "Prof. Yamamoto",
+    "background": "Working on social media data. Double major in CS and Psychology",
+    "current_project": "Analyzing sentiment in Japanese Twitter data",
+    "programming_skills": ["Python", "scikit-learn", "Pandas", "R"],
+    "interests": ["anime", "tea ceremony", "karaoke"],
+    "initial_query": "sentiment",
+    "information_need": {
+      "broad_area": "Natural Language Processing",
+      "specific_topic": "Aspect-based sentiment analysis for product reviews",
+      "sub_topics": ["aspect extraction", "opinion mining", "multi-aspect sentiment"],
+      "year_range": "2019-2024",
+      "paper_type": "empirical studies",
+      "preferred_venues": ["ACL", "EMNLP", "COLING", "WSDM"],
+      "specific_aspects": ["domain adaptation", "multilingual approaches"],
+      "exclude": "binary sentiment only"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "8-1-r",
+        "title": "Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence",
+        "authors": "Chi Sun, Luyao Huang, Xipeng Qiu",
+        "venue": "NAACL",
+        "year": 2019,
+        "url": "https://arxiv.org/abs/1903.09588",
+        "why_relevant": "BERT-based aspect-based sentiment analysis"
+      },
+      {
+        "paper_id": "8-2-r",
+        "title": "Aspect Sentiment Classification with Document-level Sentiment Preference Modeling",
+        "authors": "Xiao Chen, Changlong Sun, Jingjing Wang, et al.",
+        "venue": "ACL",
+        "year": 2020,
+        "url": "https://aclanthology.org/2020.acl-main.338/",
+        "why_relevant": "Multi-aspect sentiment classification"
+      },
+      {
+        "paper_id": "8-3-r",
+        "title": "Does syntax matter? A strong baseline for Aspect-based Sentiment Analysis with RoBERTa",
+        "authors": "Junqi Dai, Hang Yan, Tianxiang Sun, et al.",
+        "venue": "NAACL",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/2104.04986",
+        "why_relevant": "State-of-the-art ABSA with transformers"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "8-1-n",
+        "title": "Sentiment Analysis: Mining Opinions, Sentiments, and Emotions",
+        "authors": "Bing Liu",
+        "venue": "Book",
+        "year": 2015,
+        "url": "https://www.cambridge.org/core/books/sentiment-analysis/",
+        "why_misleading": "General sentiment analysis book, not aspect-based"
+      },
+      {
+        "paper_id": "8-2-n",
+        "title": "Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank",
+        "authors": "Socher et al.",
+        "venue": "EMNLP",
+        "year": 2013,
+        "url": "https://nlp.stanford.edu/~socherr/EMNLP2013_RNTN.pdf",
+        "why_misleading": "Sentiment treebank but not aspect-based, older approach"
+      },
+      {
+        "paper_id": "8-3-n",
+        "title": "Convolutional Neural Networks for Sentence Classification",
+        "authors": "Kim",
+        "venue": "EMNLP",
+        "year": 2014,
+        "url": "https://arxiv.org/abs/1408.5882",
+        "why_misleading": "Sentence classification but not aspect-level analysis"
+      }
+    ]
+  },
+  {
+    "persona_id": 9,
+    "name": "Lisa Schmidt",
+    "age": 28,
+    "level": "PhD student, 2nd year",
+    "university": "TU Munich",
+    "research_area": "Federated Learning",
+    "advisor": "Prof. Weber",
+    "background": "Strong in distributed systems and privacy. Master's in Cybersecurity",
+    "current_project": "Privacy-preserving machine learning for healthcare",
+    "programming_skills": ["Python", "PySyft", "Docker", "Kubernetes"],
+    "interests": ["skiing", "classical music", "baking"],
+    "initial_query": "distributed learning",
+    "information_need": {
+      "broad_area": "Machine Learning & Privacy",
+      "specific_topic": "Federated learning with non-IID data",
+      "sub_topics": ["personalization", "communication efficiency", "heterogeneous clients"],
+      "year_range": "2020-2024",
+      "paper_type": "novel methods",
+      "preferred_venues": ["ICML", "NeurIPS", "ICLR", "MLSys"],
+      "specific_aspects": ["convergence guarantees", "privacy-utility tradeoffs"],
+      "exclude": "centralized training comparisons only"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "9-1-r",
+        "title": "Federated Learning with Non-IID Data",
+        "authors": "Yue Zhao, Meng Li, Liangzhen Lai, et al.",
+        "venue": "arXiv",
+        "year": 2018,
+        "url": "https://arxiv.org/abs/1806.00582",
+        "why_relevant": "Directly addresses non-IID data challenge in federated learning"
+      },
+      {
+        "paper_id": "9-2-r",
+        "title": "Personalized Federated Learning with Moreau Envelopes",
+        "authors": "Canh T. Dinh, Nguyen H. Tran, Tuan Dung Nguyen",
+        "venue": "NeurIPS",
+        "year": 2020,
+        "url": "https://arxiv.org/abs/2006.08848",
+        "why_relevant": "Personalization approach for non-IID federated learning"
+      },
+      {
+        "paper_id": "9-3-r",
+        "title": "Federated Optimization in Heterogeneous Networks",
+        "authors": "Tian Li, Anit Kumar Sahu, Manzil Zaheer, et al.",
+        "venue": "MLSys",
+        "year": 2020,
+        "url": "https://arxiv.org/abs/1812.06127",
+        "why_relevant": "FedProx handles heterogeneous clients in federated settings"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "9-1-n",
+        "title": "Communication-Efficient Learning of Deep Networks from Decentralized Data",
+        "authors": "McMahan et al.",
+        "venue": "AISTATS",
+        "year": 2017,
+        "url": "https://arxiv.org/abs/1602.05629",
+        "why_misleading": "Foundational FL paper (FedAvg) but doesn't focus on non-IID challenges"
+      },
+      {
+        "paper_id": "9-2-n",
+        "title": "Differentially Private Federated Learning: A Client Level Perspective",
+        "authors": "Geyer et al.",
+        "venue": "NeurIPS Workshop",
+        "year": 2017,
+        "url": "https://arxiv.org/abs/1712.07557",
+        "why_misleading": "About privacy mechanisms, not specifically non-IID data handling"
+      },
+      {
+        "paper_id": "9-3-n",
+        "title": "Federated Machine Learning: Concept and Applications",
+        "authors": "Yang et al.",
+        "venue": "ACM TIST",
+        "year": 2019,
+        "url": "https://arxiv.org/abs/1902.04885",
+        "why_misleading": "Survey/overview but not technical solution for non-IID"
+      }
+    ]
+  },
+  {
+    "persona_id": 10,
+    "name": "Marcus Williams",
+    "age": 23,
+    "level": "Master's student, 1st year",
+    "university": "University of Washington",
+    "research_area": "Information Extraction",
+    "advisor": "Dr. Lee",
+    "background": "Basic NLP knowledge, learning about IE. Worked as data analyst for 1 year",
+    "current_project": "Extracting structured data from scientific papers",
+    "programming_skills": ["Python", "spaCy", "MongoDB"],
+    "interests": ["cycling", "jazz music", "gardening"],
+    "initial_query": "NLP extraction",
+    "information_need": {
+      "broad_area": "Natural Language Processing",
+      "specific_topic": "Joint entity and relation extraction using transformers",
+      "sub_topics": ["end-to-end models", "span-based extraction"],
+      "year_range": "2020-2024",
+      "paper_type": "surveys and representative methods",
+      "preferred_venues": ["ACL", "EMNLP", "NAACL"],
+      "specific_aspects": ["dataset benchmarks", "low-resource scenarios"],
+      "exclude": "pipeline approaches"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "10-1-r",
+        "title": "A Frustratingly Easy Approach for Entity and Relation Extraction",
+        "authors": "Zexuan Zhong, Danqi Chen",
+        "venue": "NAACL",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/2010.12812",
+        "why_relevant": "Simple yet effective joint entity-relation extraction approach"
+      },
+      {
+        "paper_id": "10-2-r",
+        "title": "Two are Better than One: Joint Entity and Relation Extraction with Table-Sequence Encoders",
+        "authors": "Yucheng Wang, Bowen Yu, Yueyang Zhang, et al.",
+        "venue": "EMNLP",
+        "year": 2020,
+        "url": "https://arxiv.org/abs/2010.03851",
+        "why_relevant": "Joint extraction with novel table-sequence encoders"
+      },
+      {
+        "paper_id": "10-3-r",
+        "title": "SpERT: Span-based Entity and Relation Transformer",
+        "authors": "Markus Eberts, Adrian Ulges",
+        "venue": "ECAI",
+        "year": 2020,
+        "url": "https://arxiv.org/abs/1909.07755",
+        "why_relevant": "Span-based approach for joint extraction with transformers"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "10-1-n",
+        "title": "Named Entity Recognition with Bidirectional LSTM-CNNs",
+        "authors": "Chiu, Nichols",
+        "venue": "TACL",
+        "year": 2016,
+        "url": "https://arxiv.org/abs/1511.08308",
+        "why_misleading": "Only entity recognition, not relation extraction"
+      },
+      {
+        "paper_id": "10-2-n",
+        "title": "Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks",
+        "authors": "Zeng et al.",
+        "venue": "EMNLP",
+        "year": 2015,
+        "url": "https://aclanthology.org/D15-1203/",
+        "why_misleading": "Pipeline approach (separate NER and RE), not joint extraction"
+      },
+      {
+        "paper_id": "10-3-n",
+        "title": "Stanford CoreNLP: A Suite of Core NLP Tools",
+        "authors": "Manning et al.",
+        "venue": "ACL Demo",
+        "year": 2014,
+        "url": "https://nlp.stanford.edu/pubs/StanfordCoreNlp2014.pdf",
+        "why_misleading": "Tool/system paper with classical methods, not neural joint extraction"
+      }
+    ]
+  },
+  {
+    "persona_id": 11,
+    "name": "Isabella Rossi",
+    "age": 29,
+    "level": "PhD student, 3rd year",
+    "university": "Politecnico di Milano",
+    "research_area": "Adversarial Robustness",
+    "advisor": "Prof. Bianchi",
+    "background": "Expert in computer vision security. Published 5 papers at top venues",
+    "current_project": "Certified robustness for vision transformers",
+    "programming_skills": ["Python", "PyTorch", "JAX", "CUDA"],
+    "interests": ["opera", "wine tasting", "mountain biking"],
+    "initial_query": "model robustness",
+    "information_need": {
+      "broad_area": "Machine Learning Security",
+      "specific_topic": "Adversarial attacks on vision transformers",
+      "sub_topics": ["attention-based attacks", "patch-based perturbations", "certified defenses"],
+      "year_range": "2021-2024",
+      "paper_type": "novel methods",
+      "preferred_venues": ["ICLR", "NeurIPS", "ICML", "CVPR", "IEEE S&P"],
+      "specific_aspects": ["transferability", "physical-world attacks"],
+      "exclude": "CNN-only attacks"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "11-1-r",
+        "title": "On the Robustness of Vision Transformers to Adversarial Examples",
+        "authors": "Kaleel Mahmood, Rigel Mahmood, Marten van Dijk",
+        "venue": "ICCV",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/2104.02610",
+        "why_relevant": "Analyzes adversarial robustness specifically for ViTs"
+      },
+      {
+        "paper_id": "11-2-r",
+        "title": "Adversarial Examples Improve Image Recognition",
+        "authors": "Cihang Xie, Mingxing Tan, Boqing Gong, et al.",
+        "venue": "CVPR",
+        "year": 2020,
+        "url": "https://arxiv.org/abs/1911.09665",
+        "why_relevant": "Adversarial training approaches for vision models"
+      },
+      {
+        "paper_id": "11-3-r",
+        "title": "Certified Patch Robustness via Smoothed Vision Transformers",
+        "authors": "Hadi Salman, Saachi Jain, Eric Wong, Aleksander Madry",
+        "venue": "CVPR",
+        "year": 2022,
+        "url": "https://arxiv.org/abs/2110.07719",
+        "why_relevant": "Certified defenses specifically designed for vision transformers"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "11-1-n",
+        "title": "Explaining and Harnessing Adversarial Examples",
+        "authors": "Goodfellow et al.",
+        "venue": "ICLR",
+        "year": 2015,
+        "url": "https://arxiv.org/abs/1412.6572",
+        "why_misleading": "FGSM paper but for CNNs, predates vision transformers"
+      },
+      {
+        "paper_id": "11-2-n",
+        "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+        "authors": "Madry et al.",
+        "venue": "ICLR",
+        "year": 2018,
+        "url": "https://arxiv.org/abs/1706.06083",
+        "why_misleading": "PGD attack but general method, not ViT-specific"
+      },
+      {
+        "paper_id": "11-3-n",
+        "title": "Intriguing properties of neural networks",
+        "authors": "Szegedy et al.",
+        "venue": "ICLR",
+        "year": 2014,
+        "url": "https://arxiv.org/abs/1312.6199",
+        "why_misleading": "Early adversarial examples paper for CNNs, not transformers"
+      }
+    ]
+  },
+  {
+    "persona_id": 12,
+    "name": "Alex Zhang",
+    "age": 25,
+    "level": "Master's student, 2nd year",
+    "university": "Tsinghua University",
+    "research_area": "Dialogue Systems",
+    "advisor": "Prof. Wang",
+    "background": "Working on chatbots, familiar with seq2seq models. Internship at ByteDance",
+    "current_project": "Multi-domain task-oriented dialogue system",
+    "programming_skills": ["Python", "PyTorch", "Rasa", "JavaScript"],
+    "interests": ["table tennis", "calligraphy", "streaming games"],
+    "initial_query": "conversational AI",
+    "information_need": {
+      "broad_area": "Natural Language Processing",
+      "specific_topic": "Task-oriented dialogue systems with end-to-end learning",
+      "sub_topics": ["dialogue state tracking", "policy learning", "GPT-based dialogue"],
+      "year_range": "2020-2024",
+      "paper_type": "empirical studies with code",
+      "preferred_venues": ["ACL", "EMNLP", "SIGdial", "NAACL"],
+      "specific_aspects": ["few-shot adaptation", "multi-domain transfer"],
+      "exclude": "chit-chat only"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "12-1-r",
+        "title": "MinTL: Minimalist Transfer Learning for Task-Oriented Dialogue Systems",
+        "authors": "Zhaojiang Lin, Bing Liu, Andrea Madotto, et al.",
+        "venue": "EMNLP",
+        "year": 2020,
+        "url": "https://arxiv.org/abs/2009.12005",
+        "why_relevant": "Transfer learning for task-oriented dialogue with minimal data"
+      },
+      {
+        "paper_id": "12-2-r",
+        "title": "SOLOIST: Building Task Bots at Scale with Transfer Learning and Machine Teaching",
+        "authors": "Baolin Peng, Chunyuan Li, Jinchao Li, et al.",
+        "venue": "TACL",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/2005.05298",
+        "why_relevant": "End-to-end task-oriented dialogue with GPT-2"
+      },
+      {
+        "paper_id": "12-3-r",
+        "title": "MultiWOZ 2.1: A Consolidated Multi-Domain Dialogue Dataset with State Corrections",
+        "authors": "Eric Michael Smith, Mary Williamson, et al.",
+        "venue": "LREC",
+        "year": 2019,
+        "url": "https://arxiv.org/abs/1907.01669",
+        "why_relevant": "Multi-domain benchmark dataset for task-oriented dialogue"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "12-1-n",
+        "title": "A Neural Conversational Model",
+        "authors": "Vinyals, Le",
+        "venue": "ICML Workshop",
+        "year": 2015,
+        "url": "https://arxiv.org/abs/1506.05869",
+        "why_misleading": "Chit-chat dialogue generation, not task-oriented"
+      },
+      {
+        "paper_id": "12-2-n",
+        "title": "The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems",
+        "authors": "Lowe et al.",
+        "venue": "SIGDIAL",
+        "year": 2015,
+        "url": "https://arxiv.org/abs/1506.08909",
+        "why_misleading": "Technical support dialogue, different domain from task-oriented systems"
+      },
+      {
+        "paper_id": "12-3-n",
+        "title": "Wizard of Wikipedia: Knowledge-Powered Conversational Agents",
+        "authors": "Dinan et al.",
+        "venue": "ICLR",
+        "year": 2019,
+        "url": "https://arxiv.org/abs/1811.01241",
+        "why_misleading": "Knowledge-grounded chit-chat, not task-oriented dialogue"
+      }
+    ]
+  },
+  {
+    "persona_id": 13,
+    "name": "Sophia Anderson",
+    "age": 27,
+    "level": "PhD student, 1st year",
+    "university": "Oxford University",
+    "research_area": "Explainable AI",
+    "advisor": "Prof. Thompson",
+    "background": "Background in ML and cognitive science, interested in interpretability",
+    "current_project": "Human-centered explanations for NLP models",
+    "programming_skills": ["Python", "PyTorch", "SHAP", "Captum"],
+    "interests": ["theater", "yoga", "science communication"],
+    "initial_query": "interpretability",
+    "information_need": {
+      "broad_area": "Explainable AI",
+      "specific_topic": "Attention-based explanations for NLP models",
+      "sub_topics": ["attention visualization", "rationale extraction", "faithfulness of explanations"],
+      "year_range": "2019-2024",
+      "paper_type": "both theoretical and empirical",
+      "preferred_venues": ["ACL", "EMNLP", "NeurIPS", "ICML", "ICLR"],
+      "specific_aspects": ["evaluation metrics", "human studies"],
+      "exclude": "image-only explanations"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "13-1-r",
+        "title": "Attention is not Explanation",
+        "authors": "Sarthak Jain, Byron C. Wallace",
+        "venue": "NAACL",
+        "year": 2019,
+        "url": "https://arxiv.org/abs/1902.10186",
+        "why_relevant": "Critical analysis of using attention as explanation in NLP"
+      },
+      {
+        "paper_id": "13-2-r",
+        "title": "Is Attention Interpretable?",
+        "authors": "Sofia Serrano, Noah A. Smith",
+        "venue": "ACL",
+        "year": 2019,
+        "url": "https://arxiv.org/abs/1906.03731",
+        "why_relevant": "Studies interpretability of attention mechanisms systematically"
+      },
+      {
+        "paper_id": "13-3-r",
+        "title": "Rationalizing Neural Predictions",
+        "authors": "Tao Lei, Regina Barzilay, Tommi Jaakkola",
+        "venue": "EMNLP",
+        "year": 2016,
+        "url": "https://arxiv.org/abs/1606.04155",
+        "why_relevant": "Rationale extraction method for generating explanations"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "13-1-n",
+        "title": "Why Should I Trust You?: Explaining the Predictions of Any Classifier",
+        "authors": "Ribeiro et al.",
+        "venue": "KDD",
+        "year": 2016,
+        "url": "https://arxiv.org/abs/1602.04938",
+        "why_misleading": "LIME is model-agnostic but not attention-specific for NLP"
+      },
+      {
+        "paper_id": "13-2-n",
+        "title": "A Unified Approach to Interpreting Model Predictions",
+        "authors": "Lundberg, Lee",
+        "venue": "NeurIPS",
+        "year": 2017,
+        "url": "https://arxiv.org/abs/1705.07874",
+        "why_misleading": "SHAP for feature importance but not attention-based explanations"
+      },
+      {
+        "paper_id": "13-3-n",
+        "title": "Visualizing and Understanding Convolutional Networks",
+        "authors": "Zeiler, Fergus",
+        "venue": "ECCV",
+        "year": 2014,
+        "url": "https://arxiv.org/abs/1311.2901",
+        "why_misleading": "CNN visualization for computer vision, not for NLP or attention"
+      }
+    ]
+  },
+  {
+    "persona_id": 14,
+    "name": "Thomas Mueller",
+    "age": 24,
+    "level": "Master's student, 1st year",
+    "university": "Heidelberg University",
+    "research_area": "Medical AI",
+    "advisor": "Dr. Fischer",
+    "background": "New to both ML and medical domain. Bachelor's in Biomedical Engineering",
+    "current_project": "Tumor segmentation in MRI scans",
+    "programming_skills": ["Python", "PyTorch", "ITK", "MATLAB"],
+    "interests": ["swimming", "woodworking", "documentary films"],
+    "initial_query": "medical imaging",
+    "information_need": {
+      "broad_area": "Medical AI",
+      "specific_topic": "Deep learning for medical image segmentation",
+      "sub_topics": ["U-Net variants", "3D segmentation", "organ segmentation"],
+      "year_range": "2020-2024",
+      "paper_type": "surveys and accessible papers",
+      "preferred_venues": ["Medical Image Analysis", "IEEE TMI", "MICCAI", "CVPR"],
+      "specific_aspects": ["limited training data", "clinical validation"],
+      "exclude": "pure clinical studies without ML"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "14-1-r",
+        "title": "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation",
+        "authors": "Fabian Isensee, Paul F. Jaeger, Simon A. A. Kohl, et al.",
+        "venue": "Nature Methods",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/1809.10486",
+        "why_relevant": "State-of-the-art automated medical image segmentation framework"
+      },
+      {
+        "paper_id": "14-2-r",
+        "title": "3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation",
+        "authors": "Özgün Çiçek, Ahmed Abdulkadir, Soeren S. Lienkamp, et al.",
+        "venue": "MICCAI",
+        "year": 2016,
+        "url": "https://arxiv.org/abs/1606.06650",
+        "why_relevant": "3D extension of U-Net specifically for medical imaging"
+      },
+      {
+        "paper_id": "14-3-r",
+        "title": "Attention U-Net: Learning Where to Look for the Pancreas",
+        "authors": "Ozan Oktay, Jo Schlemper, Loic Le Folgoc, et al.",
+        "venue": "MIDL",
+        "year": 2018,
+        "url": "https://arxiv.org/abs/1804.03999",
+        "why_relevant": "Attention mechanisms for medical image segmentation"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "14-1-n",
+        "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+        "authors": "Ronneberger et al.",
+        "venue": "MICCAI",
+        "year": 2015,
+        "url": "https://arxiv.org/abs/1505.04597",
+        "why_misleading": "Original U-Net is foundational but too basic, not recent methods"
+      },
+      {
+        "paper_id": "14-2-n",
+        "title": "Deep Learning",
+        "authors": "LeCun, Bengio, Hinton",
+        "venue": "Nature",
+        "year": 2015,
+        "url": "https://www.nature.com/articles/nature14539",
+        "why_misleading": "General deep learning review, not specific to medical imaging"
+      },
+      {
+        "paper_id": "14-3-n",
+        "title": "Machine Learning in Medicine",
+        "authors": "Rajkomar et al.",
+        "venue": "NEJM",
+        "year": 2019,
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMra1814259",
+        "why_misleading": "Clinical ML overview but not focused on image segmentation"
+      }
+    ]
+  },
+  {
+    "persona_id": 15,
+    "name": "Priya Sharma",
+    "age": 28,
+    "level": "PhD student, 2nd year",
+    "university": "National University of Singapore",
+    "research_area": "Time Series Analysis",
+    "advisor": "Prof. Tan",
+    "background": "Strong in statistics, learning deep learning for time series. Master's in Econometrics",
+    "current_project": "Financial forecasting with deep learning",
+    "programming_skills": ["Python", "R", "PyTorch", "Prophet"],
+    "interests": ["bharatanatyam dance", "reading mystery novels", "bird watching"],
+    "initial_query": "forecasting",
+    "information_need": {
+      "broad_area": "Time Series Analysis",
+      "specific_topic": "Transformer-based models for multivariate time series forecasting",
+      "sub_topics": ["temporal attention", "informer", "autoformer"],
+      "year_range": "2021-2024",
+      "paper_type": "novel methods with benchmarks",
+      "preferred_venues": ["NeurIPS", "ICML", "ICLR", "AAAI", "KDD"],
+      "specific_aspects": ["long sequence modeling", "missing data handling"],
+      "exclude": "univariate only"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "15-1-r",
+        "title": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting",
+        "authors": "Haoyi Zhou, Shanghang Zhang, Jieqi Peng, et al.",
+        "venue": "AAAI",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/2012.07436",
+        "why_relevant": "Efficient transformer architecture for long time series"
+      },
+      {
+        "paper_id": "15-2-r",
+        "title": "Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting",
+        "authors": "Haixu Wu, Jiehui Xu, Jianmin Wang, Mingsheng Long",
+        "venue": "NeurIPS",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/2106.13008",
+        "why_relevant": "Auto-correlation mechanism for time series transformers"
+      },
+      {
+        "paper_id": "15-3-r",
+        "title": "Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting",
+        "authors": "Bryan Lim, Sercan O. Arik, Nicolas Loeff, Tomas Pfister",
+        "venue": "International Journal of Forecasting",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/1912.09363",
+        "why_relevant": "Multi-horizon forecasting with attention and interpretability"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "15-1-n",
+        "title": "Forecasting: Principles and Practice",
+        "authors": "Hyndman, Athanasopoulos",
+        "venue": "Book",
+        "year": 2018,
+        "url": "https://otexts.com/fpp2/",
+        "why_misleading": "Classical statistical forecasting methods (ARIMA), not deep learning"
+      },
+      {
+        "paper_id": "15-2-n",
+        "title": "Long Short-Term Memory",
+        "authors": "Hochreiter, Schmidhuber",
+        "venue": "Neural Computation",
+        "year": 1997,
+        "url": "https://www.bioinf.jku.at/publications/older/2604.pdf",
+        "why_misleading": "Original LSTM paper but not transformer-based"
+      },
+      {
+        "paper_id": "15-3-n",
+        "title": "DeepAR: Probabilistic Forecasting with Autoregressive Recurrent Networks",
+        "authors": "Salinas et al.",
+        "venue": "International Journal of Forecasting",
+        "year": 2020,
+        "url": "https://arxiv.org/abs/1704.04110",
+        "why_misleading": "RNN-based forecasting, not transformer architecture"
+      }
+    ]
+  },
+  {
+    "persona_id": 16,
+    "name": "Oliver Brown",
+    "age": 26,
+    "level": "Master's student, 2nd year",
+    "university": "University of Edinburgh",
+    "research_area": "Code Generation",
+    "advisor": "Dr. MacLeod",
+    "background": "Software engineering background (5 years industry experience), new to AI",
+    "current_project": "AI-assisted code review and bug detection",
+    "programming_skills": ["Python", "Java", "JavaScript", "Go", "Docker"],
+    "interests": ["Scottish folk music", "hiking", "homebrewing"],
+    "initial_query": "code generation",
+    "information_need": {
+      "broad_area": "Software Engineering & AI",
+      "specific_topic": "Large language models for code generation and completion",
+      "sub_topics": ["Codex", "CodeT5", "program synthesis", "code understanding"],
+      "year_range": "2021-2024",
+      "paper_type": "empirical studies",
+      "preferred_venues": ["ICSE", "FSE", "ACL", "EMNLP", "NeurIPS"],
+      "specific_aspects": ["evaluation benchmarks", "security implications"],
+      "exclude": "simple code completion"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "16-1-r",
+        "title": "Evaluating Large Language Models Trained on Code",
+        "authors": "Mark Chen, Jerry Tworek, Heewoo Jun, et al.",
+        "venue": "arXiv",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/2107.03374",
+        "why_relevant": "Codex evaluation and capabilities for code generation"
+      },
+      {
+        "paper_id": "16-2-r",
+        "title": "CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation",
+        "authors": "Yue Wang, Weishi Wang, Shafiq Joty, Steven C.H. Hoi",
+        "venue": "EMNLP",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/2109.00859",
+        "why_relevant": "Pre-trained model specifically designed for code tasks"
+      },
+      {
+        "paper_id": "16-3-r",
+        "title": "Competition-Level Code Generation with AlphaCode",
+        "authors": "Yujia Li, David Choi, Junyoung Chung, et al.",
+        "venue": "Science",
+        "year": 2022,
+        "url": "https://arxiv.org/abs/2203.07814",
+        "why_relevant": "State-of-the-art code generation at competition level"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "16-1-n",
+        "title": "Code Completion with Statistical Language Models",
+        "authors": "Hindle et al.",
+        "venue": "ICSE",
+        "year": 2012,
+        "url": "https://dl.acm.org/doi/10.5555/2337223.2337322",
+        "why_misleading": "Traditional n-gram models for completion, not modern LLMs"
+      },
+      {
+        "paper_id": "16-2-n",
+        "title": "Deep Learning for Program Synthesis",
+        "authors": "Balog et al.",
+        "venue": "ICLR",
+        "year": 2017,
+        "url": "https://arxiv.org/abs/1611.01989",
+        "why_misleading": "Earlier neural synthesis approaches, predates modern LLMs"
+      },
+      {
+        "paper_id": "16-3-n",
+        "title": "Neural Code Search: ML-Based Code Search Using Natural Language Queries",
+        "authors": "Sachdev et al.",
+        "venue": "ICSE",
+        "year": 2018,
+        "url": "https://arxiv.org/abs/1808.09419",
+        "why_misleading": "Code search and retrieval, not generation"
+      }
+    ]
+  },
+  {
+    "persona_id": 17,
+    "name": "Nina Kowalski",
+    "age": 31,
+    "level": "PhD student, 4th year",
+    "university": "University of Amsterdam",
+    "research_area": "Causal Inference",
+    "advisor": "Prof. van der Berg",
+    "background": "Expert in causal methods, applying to ML. Background in Economics and Statistics",
+    "current_project": "Causal discovery in high-dimensional data",
+    "programming_skills": ["Python", "R", "Stan", "PyTorch"],
+    "interests": ["rowing", "museum visits", "playing cello"],
+    "initial_query": "causal models",
+    "information_need": {
+      "broad_area": "Causal Inference & Machine Learning",
+      "specific_topic": "Causal representation learning in deep neural networks",
+      "sub_topics": ["identifiability", "disentanglement", "causal discovery"],
+      "year_range": "2020-2024",
+      "paper_type": "theoretical with empirical validation",
+      "preferred_venues": ["NeurIPS", "ICML", "ICLR", "UAI", "AISTATS"],
+      "specific_aspects": ["identifiability guarantees", "practical algorithms"],
+      "exclude": "purely observational studies"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "17-1-r",
+        "title": "Towards Causal Representation Learning",
+        "authors": "Bernhard Schölkopf, Francesco Locatello, Stefan Bauer, et al.",
+        "venue": "Proceedings of the IEEE",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/2102.11107",
+        "why_relevant": "Comprehensive framework for causal representation learning"
+      },
+      {
+        "paper_id": "17-2-r",
+        "title": "Causal Representation Learning",
+        "authors": "Bernhard Schölkopf",
+        "venue": "IEEE",
+        "year": 2022,
+        "url": "https://ieeexplore.ieee.org/document/9363924",
+        "why_relevant": "Theoretical foundations and identifiability in causal representations"
+      },
+      {
+        "paper_id": "17-3-r",
+        "title": "Weakly supervised causal representation learning",
+        "authors": "Johann Brehmer, Pim De Haan, Phillip Lippe, Taco Cohen",
+        "venue": "NeurIPS",
+        "year": 2022,
+        "url": "https://arxiv.org/abs/2203.16437",
+        "why_relevant": "Identifiability and disentanglement with weak supervision"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "17-1-n",
+        "title": "The Book of Why: The New Science of Cause and Effect",
+        "authors": "Judea Pearl, Dana Mackenzie",
+        "venue": "Book",
+        "year": 2018,
+        "url": "http://bayes.cs.ucla.edu/WHY/",
+        "why_misleading": "Popular science book on causality, not technical ML research"
+      },
+      {
+        "paper_id": "17-2-n",
+        "title": "Causal inference in statistics: An overview",
+        "authors": "Pearl",
+        "venue": "Statistics Surveys",
+        "year": 2009,
+        "url": "https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf",
+        "why_misleading": "Statistical causal inference overview, not representation learning"
+      },
+      {
+        "paper_id": "17-3-n",
+        "title": "Counterfactual Explanations without Opening the Black Box",
+        "authors": "Wachter et al.",
+        "venue": "Harvard JL & Tech",
+        "year": 2018,
+        "url": "https://arxiv.org/abs/1711.00399",
+        "why_misleading": "Counterfactual explanations for ML, not causal discovery or representation"
+      }
+    ]
+  },
+  {
+    "persona_id": 18,
+    "name": "Carlos Mendez",
+    "age": 25,
+    "level": "Master's student, 1st year",
+    "university": "Universitat Politècnica de Catalunya",
+    "research_area": "Speech Processing",
+    "advisor": "Dr. Garcia",
+    "background": "Signal processing background (telecom engineering), new to deep learning",
+    "current_project": "Spanish speech recognition for call centers",
+    "programming_skills": ["Python", "Kaldi", "TensorFlow", "C++"],
+    "interests": ["flamenco guitar", "futbol", "spearfishing"],
+    "initial_query": "speech processing",
+    "information_need": {
+      "broad_area": "Speech Processing",
+      "specific_topic": "End-to-end speech recognition with transformers",
+      "sub_topics": ["wav2vec", "conformer", "streaming ASR"],
+      "year_range": "2020-2024",
+      "paper_type": "surveys and seminal works",
+      "preferred_venues": ["ICASSP", "Interspeech", "NeurIPS", "ICML"],
+      "specific_aspects": ["low-resource languages", "noisy environments"],
+      "exclude": "traditional HMM-based methods"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "18-1-r",
+        "title": "wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations",
+        "authors": "Alexei Baevski, Henry Zhou, Abdelrahman Mohamed, Michael Auli",
+        "venue": "NeurIPS",
+        "year": 2020,
+        "url": "https://arxiv.org/abs/2006.11477",
+        "why_relevant": "Self-supervised pre-training for speech recognition"
+      },
+      {
+        "paper_id": "18-2-r",
+        "title": "Conformer: Convolution-augmented Transformer for Speech Recognition",
+        "authors": "Anmol Gulati, James Qin, Chung-Cheng Chiu, et al.",
+        "venue": "Interspeech",
+        "year": 2020,
+        "url": "https://arxiv.org/abs/2005.08100",
+        "why_relevant": "State-of-the-art transformer architecture for ASR"
+      },
+      {
+        "paper_id": "18-3-r",
+        "title": "Self-training and Pre-training are Complementary for Speech Recognition",
+        "authors": "Qiantong Xu, Alexei Baevski, Michael Auli",
+        "venue": "ICASSP",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/2010.11430",
+        "why_relevant": "Combining self-supervised and self-training for robust ASR"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "18-1-n",
+        "title": "Deep Speech: Scaling up end-to-end speech recognition",
+        "authors": "Hannun et al.",
+        "venue": "arXiv",
+        "year": 2014,
+        "url": "https://arxiv.org/abs/1412.5567",
+        "why_misleading": "RNN-based ASR, predates transformer models"
+      },
+      {
+        "paper_id": "18-2-n",
+        "title": "Listen, Attend and Spell",
+        "authors": "Chan et al.",
+        "venue": "ICASSP",
+        "year": 2016,
+        "url": "https://arxiv.org/abs/1508.01211",
+        "why_misleading": "Attention-based but uses RNN encoder, not transformers"
+      },
+      {
+        "paper_id": "18-3-n",
+        "title": "Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks",
+        "authors": "Graves et al.",
+        "venue": "ICML",
+        "year": 2006,
+        "url": "https://www.cs.toronto.edu/~graves/icml_2006.pdf",
+        "why_misleading": "CTC loss function paper, not end-to-end transformer model"
+      }
+    ]
+  },
+  {
+    "persona_id": 19,
+    "name": "Jennifer Kim",
+    "age": 27,
+    "level": "PhD student, 2nd year",
+    "university": "Georgia Tech",
+    "research_area": "Meta-Learning",
+    "advisor": "Prof. Choi",
+    "background": "Strong in optimization, working on few-shot learning. Published at ICML",
+    "current_project": "Meta-learning for robotics applications",
+    "programming_skills": ["Python", "PyTorch", "JAX", "ROS"],
+    "interests": ["taekwondo", "K-pop", "competitive programming"],
+    "initial_query": "few-shot learning",
+    "information_need": {
+      "broad_area": "Meta-Learning",
+      "specific_topic": "Task-agnostic meta-learning for few-shot classification",
+      "sub_topics": ["MAML variants", "metric learning", "prototypical networks"],
+      "year_range": "2019-2024",
+      "paper_type": "both foundational and recent advances",
+      "preferred_venues": ["ICML", "NeurIPS", "ICLR"],
+      "specific_aspects": ["theoretical guarantees", "computational efficiency"],
+      "exclude": "application-specific only"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "19-1-r",
+        "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+        "authors": "Chelsea Finn, Pieter Abbeel, Sergey Levine",
+        "venue": "ICML",
+        "year": 2017,
+        "url": "https://arxiv.org/abs/1703.03400",
+        "why_relevant": "Foundational MAML paper for meta-learning"
+      },
+      {
+        "paper_id": "19-2-r",
+        "title": "Prototypical Networks for Few-shot Learning",
+        "authors": "Jake Snell, Kevin Swersky, Richard Zemel",
+        "venue": "NeurIPS",
+        "year": 2017,
+        "url": "https://arxiv.org/abs/1703.05175",
+        "why_relevant": "Metric learning approach for few-shot classification"
+      },
+      {
+        "paper_id": "19-3-r",
+        "title": "Meta-Learning with Differentiable Convex Optimization",
+        "authors": "Kwonjoon Lee, Subhransu Maji, Avinash Ravichandran, Stefano Soatto",
+        "venue": "CVPR",
+        "year": 2019,
+        "url": "https://arxiv.org/abs/1904.03758",
+        "why_relevant": "MAML variant with theoretical convergence guarantees"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "19-1-n",
+        "title": "Learning to Learn",
+        "authors": "Thrun, Pratt",
+        "venue": "Book",
+        "year": 1998,
+        "url": "https://link.springer.com/book/10.1007/978-1-4615-5529-2",
+        "why_misleading": "Early meta-learning concepts but not modern deep learning era"
+      },
+      {
+        "paper_id": "19-2-n",
+        "title": "A Survey on Transfer Learning",
+        "authors": "Pan, Yang",
+        "venue": "IEEE TKDE",
+        "year": 2010,
+        "url": "https://ieeexplore.ieee.org/document/5288526",
+        "why_misleading": "Transfer learning survey, different paradigm from meta-learning"
+      },
+      {
+        "paper_id": "19-3-n",
+        "title": "Domain Adaptation for Visual Recognition",
+        "authors": "Saenko et al.",
+        "venue": "NIPS",
+        "year": 2010,
+        "url": "https://papers.nips.cc/paper/2010/hash/6f2268bd1d3d3ebaabb04d6b5d099425-Abstract.html",
+        "why_misleading": "Domain adaptation, not few-shot meta-learning"
+      }
+    ]
+  },
+  {
+    "persona_id": 20,
+    "name": "Daniel Osei",
+    "age": 26,
+    "level": "Master's student, 2nd year",
+    "university": "University of Cape Town",
+    "research_area": "Multimodal Learning",
+    "advisor": "Dr. Nkomo",
+    "background": "Working with images and text. Bachelor's in Computer Science and Linguistics",
+    "current_project": "Vision-language models for African art documentation",
+    "programming_skills": ["Python", "PyTorch", "Hugging Face", "React"],
+    "interests": ["djembe drumming", "wildlife photography", "spoken word poetry"],
+    "initial_query": "vision language",
+    "information_need": {
+      "broad_area": "Multimodal Learning",
+      "specific_topic": "Vision-language pre-training for image-text retrieval",
+      "sub_topics": ["CLIP", "ALIGN", "contrastive learning", "cross-modal attention"],
+      "year_range": "2021-2024",
+      "paper_type": "novel methods",
+      "preferred_venues": ["CVPR", "ICCV", "ECCV", "NeurIPS", "ICML"],
+      "specific_aspects": ["zero-shot transfer", "scalability to web-scale data"],
+      "exclude": "image captioning only"
+    },
+    "relevant_papers": [
+      {
+        "paper_id": "20-1-r",
+        "title": "Learning Transferable Visual Models From Natural Language Supervision",
+        "authors": "Alec Radford, Jong Wook Kim, Chris Hallacy, et al.",
+        "venue": "ICML",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/2103.00020",
+        "why_relevant": "CLIP: Foundational vision-language pre-training with contrastive learning"
+      },
+      {
+        "paper_id": "20-2-r",
+        "title": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+        "authors": "Chao Jia, Yinfei Yang, Ye Xia, et al.",
+        "venue": "ICML",
+        "year": 2021,
+        "url": "https://arxiv.org/abs/2102.05918",
+        "why_relevant": "ALIGN: Large-scale noisy vision-language alignment"
+      },
+      {
+        "paper_id": "20-3-r",
+        "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+        "authors": "Junnan Li, Dongxu Li, Caiming Xiong, Steven Hoi",
+        "venue": "ICML",
+        "year": 2022,
+        "url": "https://arxiv.org/abs/2201.12086",
+        "why_relevant": "Unified vision-language model for both understanding and generation"
+      }
+    ],
+    "non_relevant_papers": [
+      {
+        "paper_id": "20-1-n",
+        "title": "Show and Tell: A Neural Image Caption Generator",
+        "authors": "Vinyals et al.",
+        "venue": "CVPR",
+        "year": 2015,
+        "url": "https://arxiv.org/abs/1411.4555",
+        "why_misleading": "Image captioning only, not bidirectional retrieval or contrastive pre-training"
+      },
+      {
+        "paper_id": "20-2-n",
+        "title": "Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering",
+        "authors": "Anderson et al.",
+        "venue": "CVPR",
+        "year": 2018,
+        "url": "https://arxiv.org/abs/1707.07998",
+        "why_misleading": "Attention for captioning task, not contrastive vision-language pre-training"
+      },
+      {
+        "paper_id": "20-3-n",
+        "title": "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+        "authors": "Li et al.",
+        "venue": "arXiv",
+        "year": 2019,
+        "url": "https://arxiv.org/abs/1908.03557",
+        "why_misleading": "Early vision-language BERT but different architecture paradigm than CLIP/ALIGN"
+      }
+    ]
+  }
+]

@@ -1,0 +1,882 @@
+[
+  {
+    "persona_id": 1,
+    "initial_query": "neural networks",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "neural networks"
+      },
+      {
+        "role": "assistant",
+        "content": "Which specific topic within Information Retrieval would you like to focus on?"
+      },
+      {
+        "role": "user",
+        "content": "Neural ranking models for passage retrieval"
+      },
+      {
+        "role": "assistant",
+        "content": "Which sub-topics within neural ranking should we focus on (e.g., BERT-based rankers, cross-encoders)?"
+      },
+      {
+        "role": "user",
+        "content": "- BERT-based rankers\n- Cross-encoders"
+      },
+      {
+        "role": "assistant",
+        "content": "What type of papers should I focus on (conference, journal, or surveys)?"
+      },
+      {
+        "role": "user",
+        "content": "Conference papers."
+      },
+      {
+        "role": "assistant",
+        "content": "Should I exclude pure theoretical papers, or are there any other categories you want me to omit?"
+      },
+      {
+        "role": "user",
+        "content": "Exclude pure theoretical papers; no other categories specified."
+      }
+    ],
+    "conversation_text": "USER: neural networks\nASSISTANT: Which specific topic within Information Retrieval would you like to focus on?\nUSER: Neural ranking models for passage retrieval\nASSISTANT: Which sub-topics within neural ranking should we focus on (e.g., BERT-based rankers, cross-encoders)?\nUSER: - BERT-based rankers\n- Cross-encoders\nASSISTANT: What type of papers should I focus on (conference, journal, or surveys)?\nUSER: Conference papers.\nASSISTANT: Should I exclude pure theoretical papers, or are there any other categories you want me to omit?\nUSER: Exclude pure theoretical papers; no other categories specified."
+  },
+  {
+    "persona_id": 2,
+    "initial_query": "deep learning",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "deep learning"
+      },
+      {
+        "role": "assistant",
+        "content": "Which specific topic within Recommender Systems should we focus on?"
+      },
+      {
+        "role": "user",
+        "content": "Sequential recommendation with transformers."
+      },
+      {
+        "role": "assistant",
+        "content": "Which sub-topics should we prioritize: session-based recommendation or self-attention mechanisms?"
+      },
+      {
+        "role": "user",
+        "content": "- Self-attention mechanisms (primary)\n- Session-based recommendation (secondary)"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want both survey and empirical papers, or should we focus on one type?"
+      },
+      {
+        "role": "user",
+        "content": "Both survey and empirical."
+      },
+      {
+        "role": "assistant",
+        "content": "Which venues should we prioritize: RecSys, WWW, or KDD?"
+      },
+      {
+        "role": "user",
+        "content": "RecSys, WWW, and KDD."
+      }
+    ],
+    "conversation_text": "USER: deep learning\nASSISTANT: Which specific topic within Recommender Systems should we focus on?\nUSER: Sequential recommendation with transformers.\nASSISTANT: Which sub-topics should we prioritize: session-based recommendation or self-attention mechanisms?\nUSER: - Self-attention mechanisms (primary)\n- Session-based recommendation (secondary)\nASSISTANT: Do you want both survey and empirical papers, or should we focus on one type?\nUSER: Both survey and empirical.\nASSISTANT: Which venues should we prioritize: RecSys, WWW, or KDD?\nUSER: RecSys, WWW, and KDD."
+  },
+  {
+    "persona_id": 3,
+    "initial_query": "BERT models",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "BERT models"
+      },
+      {
+        "role": "assistant",
+        "content": "What specific topic related to BERT models should we focus on?"
+      },
+      {
+        "role": "user",
+        "content": "Cross-lingual transfer learning for low-resource languages."
+      },
+      {
+        "role": "assistant",
+        "content": "Which sub-topics should we focus on—mBERT, XLM-R, and/or adapter-based methods?"
+      },
+      {
+        "role": "user",
+        "content": "- mBERT\n- XLM-R\n- adapter-based methods"
+      },
+      {
+        "role": "assistant",
+        "content": "Should I focus on empirical studies only, or include other paper types as well?"
+      },
+      {
+        "role": "user",
+        "content": "Focus on empirical studies only."
+      },
+      {
+        "role": "assistant",
+        "content": "Should I prioritize papers from ACL, EMNLP, NAACL, and EACL?"
+      },
+      {
+        "role": "user",
+        "content": "Yes—prioritize ACL, EMNLP, NAACL, and EACL."
+      }
+    ],
+    "conversation_text": "USER: BERT models\nASSISTANT: What specific topic related to BERT models should we focus on?\nUSER: Cross-lingual transfer learning for low-resource languages.\nASSISTANT: Which sub-topics should we focus on—mBERT, XLM-R, and/or adapter-based methods?\nUSER: - mBERT\n- XLM-R\n- adapter-based methods\nASSISTANT: Should I focus on empirical studies only, or include other paper types as well?\nUSER: Focus on empirical studies only.\nASSISTANT: Should I prioritize papers from ACL, EMNLP, NAACL, and EACL?\nUSER: Yes—prioritize ACL, EMNLP, NAACL, and EACL."
+  },
+  {
+    "persona_id": 4,
+    "initial_query": "transformers",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "transformers"
+      },
+      {
+        "role": "assistant",
+        "content": "To confirm, is your specific topic vision transformers for object detection?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, vision transformers for object detection."
+      },
+      {
+        "role": "assistant",
+        "content": "Which sub-topics should I focus on (e.g., DETR variants, patch embedding strategies)?"
+      },
+      {
+        "role": "user",
+        "content": "- DETR variants\n- Patch embedding strategies"
+      },
+      {
+        "role": "assistant",
+        "content": "Which type of papers should I include (conference proceedings, journal articles, or surveys)?"
+      },
+      {
+        "role": "user",
+        "content": "Conference proceedings (CVPR, ICCV, ECCV, NeurIPS)."
+      },
+      {
+        "role": "assistant",
+        "content": "Should I restrict to novel method papers with code available?"
+      },
+      {
+        "role": "user",
+        "content": "Yes—restrict to novel method papers with code available."
+      }
+    ],
+    "conversation_text": "USER: transformers\nASSISTANT: To confirm, is your specific topic vision transformers for object detection?\nUSER: Yes, vision transformers for object detection.\nASSISTANT: Which sub-topics should I focus on (e.g., DETR variants, patch embedding strategies)?\nUSER: - DETR variants\n- Patch embedding strategies\nASSISTANT: Which type of papers should I include (conference proceedings, journal articles, or surveys)?\nUSER: Conference proceedings (CVPR, ICCV, ECCV, NeurIPS).\nASSISTANT: Should I restrict to novel method papers with code available?\nUSER: Yes—restrict to novel method papers with code available."
+  },
+  {
+    "persona_id": 5,
+    "initial_query": "graph learning",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "graph learning"
+      },
+      {
+        "role": "assistant",
+        "content": "What specific topic within Graph Machine Learning should we focus on?"
+      },
+      {
+        "role": "user",
+        "content": "Graph neural networks for node classification."
+      },
+      {
+        "role": "assistant",
+        "content": "Which sub-topics within GNNs for node classification should we prioritize (e.g., message passing, graph attention networks, over-smoothing)?"
+      },
+      {
+        "role": "user",
+        "content": "- Message passing\n- Graph attention networks\n- Over-smoothing problem"
+      },
+      {
+        "role": "assistant",
+        "content": "Should we focus on foundational papers, recent surveys, or both?"
+      },
+      {
+        "role": "user",
+        "content": "Both—foundational papers and recent surveys."
+      },
+      {
+        "role": "assistant",
+        "content": "Which venues should we prioritize (e.g., ICML, NeurIPS, ICLR, KDD)?"
+      },
+      {
+        "role": "user",
+        "content": "- ICML\n- NeurIPS\n- ICLR\n- KDD"
+      }
+    ],
+    "conversation_text": "USER: graph learning\nASSISTANT: What specific topic within Graph Machine Learning should we focus on?\nUSER: Graph neural networks for node classification.\nASSISTANT: Which sub-topics within GNNs for node classification should we prioritize (e.g., message passing, graph attention networks, over-smoothing)?\nUSER: - Message passing\n- Graph attention networks\n- Over-smoothing problem\nASSISTANT: Should we focus on foundational papers, recent surveys, or both?\nUSER: Both—foundational papers and recent surveys.\nASSISTANT: Which venues should we prioritize (e.g., ICML, NeurIPS, ICLR, KDD)?\nUSER: - ICML\n- NeurIPS\n- ICLR\n- KDD"
+  },
+  {
+    "persona_id": 6,
+    "initial_query": "question answering",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "question answering"
+      },
+      {
+        "role": "assistant",
+        "content": "Should the specific topic be conversational question answering over knowledge bases?"
+      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "Should the sub-topics be multi-hop reasoning and context tracking?"
+      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "Should the paper type be empirical studies with datasets?"
+      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "Should the preferred venues be ACL, EMNLP, and NAACL?"
+      },
+      {
+        "role": "user",
+        "content": "Yes: ACL, EMNLP, and NAACL."
+      }
+    ],
+    "conversation_text": "USER: question answering\nASSISTANT: Should the specific topic be conversational question answering over knowledge bases?\nUSER: Yes.\nASSISTANT: Should the sub-topics be multi-hop reasoning and context tracking?\nUSER: Yes.\nASSISTANT: Should the paper type be empirical studies with datasets?\nUSER: Yes.\nASSISTANT: Should the preferred venues be ACL, EMNLP, and NAACL?\nUSER: Yes: ACL, EMNLP, and NAACL."
+  },
+  {
+    "persona_id": 7,
+    "initial_query": "reinforcement learning",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "reinforcement learning"
+      },
+      {
+        "role": "assistant",
+        "content": "What specific topic within Natural Language Processing & Reinforcement Learning would you like to focus on?"
+      },
+      {
+        "role": "user",
+        "content": "Reinforcement learning from human feedback for LLMs."
+      },
+      {
+        "role": "assistant",
+        "content": "Which sub-topics or approaches within RLHF should we prioritize (e.g., PPO for language models, reward modeling, alignment)?"
+      },
+      {
+        "role": "user",
+        "content": "- PPO for language models (scalability)\n- Reward modeling (mitigate reward hacking)\n- Alignment (safety)"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you prefer conference papers, journal articles, or surveys?"
+      },
+      {
+        "role": "user",
+        "content": "Conference papers (NeurIPS, ICML, ICLR, ACL)."
+      },
+      {
+        "role": "assistant",
+        "content": "Should I exclude robotics applications or anything else?"
+      },
+      {
+        "role": "user",
+        "content": "Yes—exclude robotics applications; no other exclusions specified."
+      }
+    ],
+    "conversation_text": "USER: reinforcement learning\nASSISTANT: What specific topic within Natural Language Processing & Reinforcement Learning would you like to focus on?\nUSER: Reinforcement learning from human feedback for LLMs.\nASSISTANT: Which sub-topics or approaches within RLHF should we prioritize (e.g., PPO for language models, reward modeling, alignment)?\nUSER: - PPO for language models (scalability)\n- Reward modeling (mitigate reward hacking)\n- Alignment (safety)\nASSISTANT: Do you prefer conference papers, journal articles, or surveys?\nUSER: Conference papers (NeurIPS, ICML, ICLR, ACL).\nASSISTANT: Should I exclude robotics applications or anything else?\nUSER: Yes—exclude robotics applications; no other exclusions specified."
+  },
+  {
+    "persona_id": 8,
+    "initial_query": "sentiment",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "sentiment"
+      },
+      {
+        "role": "assistant",
+        "content": "Should I focus on aspect-based sentiment analysis for product reviews?"
+      },
+      {
+        "role": "user",
+        "content": "Yes—prioritize aspect-based sentiment analysis for product reviews, focusing on aspect extraction, opinion mining, and multi-aspect sentiment with domain adaptation and multilingual approaches in 2019–2024 empirical studies (ACL/EMNLP/COLING/WSDM), excluding binary-only sentiment."
+      },
+      {
+        "role": "assistant",
+        "content": "Should I exclude binary-only sentiment papers?"
+      },
+      {
+        "role": "user",
+        "content": "Yes—exclude binary-only sentiment papers."
+      },
+      {
+        "role": "assistant",
+        "content": "Which sub-topics within aspect-based sentiment analysis should I prioritize (e.g., aspect extraction, opinion mining, multi-aspect sentiment)?"
+      },
+      {
+        "role": "user",
+        "content": "- aspect extraction\n- opinion mining\n- multi-aspect sentiment"
+      },
+      {
+        "role": "assistant",
+        "content": "Should I focus on empirical studies?"
+      },
+      {
+        "role": "user",
+        "content": "Yes."
+      }
+    ],
+    "conversation_text": "USER: sentiment\nASSISTANT: Should I focus on aspect-based sentiment analysis for product reviews?\nUSER: Yes—prioritize aspect-based sentiment analysis for product reviews, focusing on aspect extraction, opinion mining, and multi-aspect sentiment with domain adaptation and multilingual approaches in 2019–2024 empirical studies (ACL/EMNLP/COLING/WSDM), excluding binary-only sentiment.\nASSISTANT: Should I exclude binary-only sentiment papers?\nUSER: Yes—exclude binary-only sentiment papers.\nASSISTANT: Which sub-topics within aspect-based sentiment analysis should I prioritize (e.g., aspect extraction, opinion mining, multi-aspect sentiment)?\nUSER: - aspect extraction\n- opinion mining\n- multi-aspect sentiment\nASSISTANT: Should I focus on empirical studies?\nUSER: Yes."
+  },
+  {
+    "persona_id": 9,
+    "initial_query": "distributed learning",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "distributed learning"
+      },
+      {
+        "role": "assistant",
+        "content": "Are you specifically interested in federated learning with non-IID data within distributed learning?"
+      },
+      {
+        "role": "user",
+        "content": "Yes—specifically federated learning with non-IID data."
+      },
+      {
+        "role": "assistant",
+        "content": "Which sub-topics should we prioritize: personalization, communication efficiency, or heterogeneous clients?"
+      },
+      {
+        "role": "user",
+        "content": "Not specified in my information need."
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want to focus strictly on novel methods papers?"
+      },
+      {
+        "role": "user",
+        "content": "Yes—strictly novel methods."
+      },
+      {
+        "role": "assistant",
+        "content": "Should we limit results to ICML, NeurIPS, ICLR, and MLSys?"
+      },
+      {
+        "role": "user",
+        "content": "Yes—limit to ICML, NeurIPS, ICLR, and MLSys."
+      }
+    ],
+    "conversation_text": "USER: distributed learning\nASSISTANT: Are you specifically interested in federated learning with non-IID data within distributed learning?\nUSER: Yes—specifically federated learning with non-IID data.\nASSISTANT: Which sub-topics should we prioritize: personalization, communication efficiency, or heterogeneous clients?\nUSER: Not specified in my information need.\nASSISTANT: Do you want to focus strictly on novel methods papers?\nUSER: Yes—strictly novel methods.\nASSISTANT: Should we limit results to ICML, NeurIPS, ICLR, and MLSys?\nUSER: Yes—limit to ICML, NeurIPS, ICLR, and MLSys."
+  },
+  {
+    "persona_id": 10,
+    "initial_query": "NLP extraction",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "NLP extraction"
+      },
+      {
+        "role": "assistant",
+        "content": "To confirm, is your specific topic joint entity and relation extraction using transformers?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, my specific topic is joint entity and relation extraction using transformers."
+      },
+      {
+        "role": "assistant",
+        "content": "Should we focus on end-to-end models, span-based extraction, or both?"
+      },
+      {
+        "role": "user",
+        "content": "Both—end-to-end and span-based—prioritizing dataset benchmarks and low-resource scenarios, and excluding pipeline approaches."
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want surveys only, or both surveys and representative method papers?"
+      },
+      {
+        "role": "user",
+        "content": "Both surveys and representative method papers."
+      },
+      {
+        "role": "assistant",
+        "content": "Should we prioritize ACL, EMNLP, and NAACL only, or include other venues as well?"
+      },
+      {
+        "role": "user",
+        "content": "Prioritize ACL, EMNLP, and NAACL only."
+      }
+    ],
+    "conversation_text": "USER: NLP extraction\nASSISTANT: To confirm, is your specific topic joint entity and relation extraction using transformers?\nUSER: Yes, my specific topic is joint entity and relation extraction using transformers.\nASSISTANT: Should we focus on end-to-end models, span-based extraction, or both?\nUSER: Both—end-to-end and span-based—prioritizing dataset benchmarks and low-resource scenarios, and excluding pipeline approaches.\nASSISTANT: Do you want surveys only, or both surveys and representative method papers?\nUSER: Both surveys and representative method papers.\nASSISTANT: Should we prioritize ACL, EMNLP, and NAACL only, or include other venues as well?\nUSER: Prioritize ACL, EMNLP, and NAACL only."
+  },
+  {
+    "persona_id": 11,
+    "initial_query": "model robustness",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "model robustness"
+      },
+      {
+        "role": "assistant",
+        "content": "Are you specifically looking for adversarial attacks on vision transformers?"
+      },
+      {
+        "role": "user",
+        "content": "Yes—specifically adversarial attacks on vision transformers."
+      },
+      {
+        "role": "assistant",
+        "content": "Which sub-topics would you like to prioritize: attention-based attacks, patch-based perturbations, or certified defenses?"
+      },
+      {
+        "role": "user",
+        "content": "Not specified in my information need."
+      },
+      {
+        "role": "assistant",
+        "content": "Should I include all three sub-topics (attention-based attacks, patch-based perturbations, and certified defenses) or focus on a subset?"
+      },
+      {
+        "role": "user",
+        "content": "Include all three sub-topics."
+      },
+      {
+        "role": "assistant",
+        "content": "Should I restrict to papers proposing novel methods and exclude surveys, benchmarks, and analyses?"
+      },
+      {
+        "role": "user",
+        "content": "Yes—focus on papers with novel methods and exclude surveys, benchmarks, and analyses."
+      }
+    ],
+    "conversation_text": "USER: model robustness\nASSISTANT: Are you specifically looking for adversarial attacks on vision transformers?\nUSER: Yes—specifically adversarial attacks on vision transformers.\nASSISTANT: Which sub-topics would you like to prioritize: attention-based attacks, patch-based perturbations, or certified defenses?\nUSER: Not specified in my information need.\nASSISTANT: Should I include all three sub-topics (attention-based attacks, patch-based perturbations, and certified defenses) or focus on a subset?\nUSER: Include all three sub-topics.\nASSISTANT: Should I restrict to papers proposing novel methods and exclude surveys, benchmarks, and analyses?\nUSER: Yes—focus on papers with novel methods and exclude surveys, benchmarks, and analyses."
+  },
+  {
+    "persona_id": 12,
+    "initial_query": "conversational AI",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "conversational AI"
+      },
+      {
+        "role": "assistant",
+        "content": "To confirm, is your specific topic task-oriented dialogue systems with end-to-end learning?"
+      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "Which sub-topics should I prioritize: dialogue state tracking, policy learning, or GPT-based dialogue?"
+      },
+      {
+        "role": "user",
+        "content": "- Prioritize: dialogue state tracking and policy learning (focused on few-shot adaptation and multi-domain transfer)\n- Secondary: GPT-based dialogue"
+      },
+      {
+        "role": "assistant",
+        "content": "Should I restrict to empirical studies with code?"
+      },
+      {
+        "role": "user",
+        "content": "Yes—restrict to empirical studies with code."
+      },
+      {
+        "role": "assistant",
+        "content": "Should I prioritize ACL, EMNLP, SIGdial, and NAACL, or include other venues?"
+      },
+      {
+        "role": "user",
+        "content": "Prioritize ACL, EMNLP, SIGdial, and NAACL."
+      }
+    ],
+    "conversation_text": "USER: conversational AI\nASSISTANT: To confirm, is your specific topic task-oriented dialogue systems with end-to-end learning?\nUSER: Yes.\nASSISTANT: Which sub-topics should I prioritize: dialogue state tracking, policy learning, or GPT-based dialogue?\nUSER: - Prioritize: dialogue state tracking and policy learning (focused on few-shot adaptation and multi-domain transfer)\n- Secondary: GPT-based dialogue\nASSISTANT: Should I restrict to empirical studies with code?\nUSER: Yes—restrict to empirical studies with code.\nASSISTANT: Should I prioritize ACL, EMNLP, SIGdial, and NAACL, or include other venues?\nUSER: Prioritize ACL, EMNLP, SIGdial, and NAACL."
+  },
+  {
+    "persona_id": 13,
+    "initial_query": "interpretability",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "interpretability"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want to focus on attention-based explanations for NLP models as your specific topic?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, attention-based explanations for NLP models."
+      },
+      {
+        "role": "assistant",
+        "content": "Which sub-topics should I focus on among attention visualization, rationale extraction, and faithfulness of explanations?"
+      },
+      {
+        "role": "user",
+        "content": "- attention visualization\n- rationale extraction\n- faithfulness of explanations"
+      },
+      {
+        "role": "assistant",
+        "content": "Should I include both theoretical and empirical papers?"
+      },
+      {
+        "role": "user",
+        "content": "Yes—include both theoretical and empirical papers."
+      },
+      {
+        "role": "assistant",
+        "content": "Which venues should I prioritize (ACL, EMNLP, NeurIPS, ICML, ICLR)?"
+      },
+      {
+        "role": "user",
+        "content": "- First priority: ACL, EMNLP\n- Next: NeurIPS, ICLR, ICML"
+      }
+    ],
+    "conversation_text": "USER: interpretability\nASSISTANT: Do you want to focus on attention-based explanations for NLP models as your specific topic?\nUSER: Yes, attention-based explanations for NLP models.\nASSISTANT: Which sub-topics should I focus on among attention visualization, rationale extraction, and faithfulness of explanations?\nUSER: - attention visualization\n- rationale extraction\n- faithfulness of explanations\nASSISTANT: Should I include both theoretical and empirical papers?\nUSER: Yes—include both theoretical and empirical papers.\nASSISTANT: Which venues should I prioritize (ACL, EMNLP, NeurIPS, ICML, ICLR)?\nUSER: - First priority: ACL, EMNLP\n- Next: NeurIPS, ICLR, ICML"
+  },
+  {
+    "persona_id": 14,
+    "initial_query": "medical imaging",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "medical imaging"
+      },
+      {
+        "role": "assistant",
+        "content": "What specific topic within medical imaging should I focus on (e.g., deep learning for image segmentation)?"
+      },
+      {
+        "role": "user",
+        "content": "Deep learning for medical image segmentation."
+      },
+      {
+        "role": "assistant",
+        "content": "Which sub-topics or approaches within medical image segmentation should I prioritize (e.g., U-Net variants, 3D segmentation, organ segmentation)?"
+      },
+      {
+        "role": "user",
+        "content": "- U-Net variants\n- 3D segmentation\n- Organ segmentation"
+      },
+      {
+        "role": "assistant",
+        "content": "What types of papers should I focus on (e.g., surveys, tutorials, conference or journal articles)?"
+      },
+      {
+        "role": "user",
+        "content": "Surveys and accessible papers."
+      },
+      {
+        "role": "assistant",
+        "content": "Which specific aspects should I emphasize (e.g., limited training data, clinical validation)?"
+      },
+      {
+        "role": "user",
+        "content": "- Limited training data\n- Clinical validation"
+      }
+    ],
+    "conversation_text": "USER: medical imaging\nASSISTANT: What specific topic within medical imaging should I focus on (e.g., deep learning for image segmentation)?\nUSER: Deep learning for medical image segmentation.\nASSISTANT: Which sub-topics or approaches within medical image segmentation should I prioritize (e.g., U-Net variants, 3D segmentation, organ segmentation)?\nUSER: - U-Net variants\n- 3D segmentation\n- Organ segmentation\nASSISTANT: What types of papers should I focus on (e.g., surveys, tutorials, conference or journal articles)?\nUSER: Surveys and accessible papers.\nASSISTANT: Which specific aspects should I emphasize (e.g., limited training data, clinical validation)?\nUSER: - Limited training data\n- Clinical validation"
+  },
+  {
+    "persona_id": 15,
+    "initial_query": "forecasting",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "forecasting"
+      },
+      {
+        "role": "assistant",
+        "content": "Which specific topic within Time Series Analysis would you like to focus on?"
+      },
+      {
+        "role": "user",
+        "content": "Transformer-based models for multivariate time series forecasting."
+      },
+      {
+        "role": "assistant",
+        "content": "Which sub-topics or approaches should we prioritize (e.g., temporal attention, Informer, Autoformer)?"
+      },
+      {
+        "role": "user",
+        "content": "- Autoformer — prioritize for long sequence modeling benchmarks.\n- Informer — prioritize for efficient long sequence forecasting.\n- Temporal attention variants — prioritize those tailored to missing data handling in multivariate settings."
+      },
+      {
+        "role": "assistant",
+        "content": "Should I focus on conference papers proposing novel methods with benchmarks, or include journal articles and surveys as well?"
+      },
+      {
+        "role": "user",
+        "content": "Focus on conference papers proposing novel methods with benchmarks (NeurIPS, ICML, ICLR, AAAI, KDD)."
+      },
+      {
+        "role": "assistant",
+        "content": "Should I emphasize long sequence modeling and missing data handling, or include other aspects as well?"
+      },
+      {
+        "role": "user",
+        "content": "Emphasize long sequence modeling and missing data handling; no other aspects are needed."
+      }
+    ],
+    "conversation_text": "USER: forecasting\nASSISTANT: Which specific topic within Time Series Analysis would you like to focus on?\nUSER: Transformer-based models for multivariate time series forecasting.\nASSISTANT: Which sub-topics or approaches should we prioritize (e.g., temporal attention, Informer, Autoformer)?\nUSER: - Autoformer — prioritize for long sequence modeling benchmarks.\n- Informer — prioritize for efficient long sequence forecasting.\n- Temporal attention variants — prioritize those tailored to missing data handling in multivariate settings.\nASSISTANT: Should I focus on conference papers proposing novel methods with benchmarks, or include journal articles and surveys as well?\nUSER: Focus on conference papers proposing novel methods with benchmarks (NeurIPS, ICML, ICLR, AAAI, KDD).\nASSISTANT: Should I emphasize long sequence modeling and missing data handling, or include other aspects as well?\nUSER: Emphasize long sequence modeling and missing data handling; no other aspects are needed."
+  },
+  {
+    "persona_id": 16,
+    "initial_query": "code generation",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "code generation"
+      },
+      {
+        "role": "assistant",
+        "content": "What specific topic within code generation are you interested in?"
+      },
+      {
+        "role": "user",
+        "content": "Large language models for code generation and completion."
+      },
+      {
+        "role": "assistant",
+        "content": "Which sub-topics do you want to focus on (e.g., Codex, CodeT5, program synthesis, code understanding)?"
+      },
+      {
+        "role": "user",
+        "content": "- Codex\n- CodeT5\n- Program synthesis\n- Code understanding"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want only empirical studies?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, only empirical studies."
+      },
+      {
+        "role": "assistant",
+        "content": "Which venues should I prioritize (ICSE, FSE, ACL, EMNLP, NeurIPS)?"
+      },
+      {
+        "role": "user",
+        "content": "- ICSE, FSE\n- ACL, EMNLP\n- NeurIPS"
+      }
+    ],
+    "conversation_text": "USER: code generation\nASSISTANT: What specific topic within code generation are you interested in?\nUSER: Large language models for code generation and completion.\nASSISTANT: Which sub-topics do you want to focus on (e.g., Codex, CodeT5, program synthesis, code understanding)?\nUSER: - Codex\n- CodeT5\n- Program synthesis\n- Code understanding\nASSISTANT: Do you want only empirical studies?\nUSER: Yes, only empirical studies.\nASSISTANT: Which venues should I prioritize (ICSE, FSE, ACL, EMNLP, NeurIPS)?\nUSER: - ICSE, FSE\n- ACL, EMNLP\n- NeurIPS"
+  },
+  {
+    "persona_id": 17,
+    "initial_query": "causal models",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "causal models"
+      },
+      {
+        "role": "assistant",
+        "content": "What specific topic within causal inference and machine learning would you like to focus on?"
+      },
+      {
+        "role": "user",
+        "content": "Causal representation learning in deep neural networks."
+      },
+      {
+        "role": "assistant",
+        "content": "Which sub-topics should we prioritize (e.g., identifiability, disentanglement, causal discovery)?"
+      },
+      {
+        "role": "user",
+        "content": "- Identifiability\n- Disentanglement\n- Causal discovery"
+      },
+      {
+        "role": "assistant",
+        "content": "What kind of papers should we prioritize—e.g., theoretical with empirical validation, purely empirical, or surveys?"
+      },
+      {
+        "role": "user",
+        "content": "Theoretical papers with empirical validation."
+      },
+      {
+        "role": "assistant",
+        "content": "Which venues should we prioritize (e.g., NeurIPS, ICML, ICLR, UAI, AISTATS)?"
+      },
+      {
+        "role": "user",
+        "content": "- NeurIPS\n- ICML\n- ICLR\n- UAI\n- AISTATS"
+      }
+    ],
+    "conversation_text": "USER: causal models\nASSISTANT: What specific topic within causal inference and machine learning would you like to focus on?\nUSER: Causal representation learning in deep neural networks.\nASSISTANT: Which sub-topics should we prioritize (e.g., identifiability, disentanglement, causal discovery)?\nUSER: - Identifiability\n- Disentanglement\n- Causal discovery\nASSISTANT: What kind of papers should we prioritize—e.g., theoretical with empirical validation, purely empirical, or surveys?\nUSER: Theoretical papers with empirical validation.\nASSISTANT: Which venues should we prioritize (e.g., NeurIPS, ICML, ICLR, UAI, AISTATS)?\nUSER: - NeurIPS\n- ICML\n- ICLR\n- UAI\n- AISTATS"
+  },
+  {
+    "persona_id": 18,
+    "initial_query": "speech processing",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "speech processing"
+      },
+      {
+        "role": "assistant",
+        "content": "Should we focus on end-to-end speech recognition with transformers?"
+      },
+      {
+        "role": "user",
+        "content": "Yes—focus on end-to-end transformer-based ASR, emphasizing wav2vec, conformer, and streaming ASR for low-resource and noisy environments, guided by 2020–2024 surveys/seminal works from ICASSP, Interspeech, NeurIPS, and ICML (excluding HMM-based methods)."
+      },
+      {
+        "role": "assistant",
+        "content": "Should we prioritize surveys and seminal works?"
+      },
+      {
+        "role": "user",
+        "content": "Yes—prioritize surveys and seminal works."
+      },
+      {
+        "role": "assistant",
+        "content": "Should we emphasize wav2vec, conformer, and streaming ASR as the sub-topics?"
+      },
+      {
+        "role": "user",
+        "content": "Yes—wav2vec, conformer, and streaming ASR should be emphasized."
+      },
+      {
+        "role": "assistant",
+        "content": "Should we focus on ICASSP, Interspeech, NeurIPS, and ICML as the preferred venues?"
+      },
+      {
+        "role": "user",
+        "content": "Yes—these are the preferred venues."
+      }
+    ],
+    "conversation_text": "USER: speech processing\nASSISTANT: Should we focus on end-to-end speech recognition with transformers?\nUSER: Yes—focus on end-to-end transformer-based ASR, emphasizing wav2vec, conformer, and streaming ASR for low-resource and noisy environments, guided by 2020–2024 surveys/seminal works from ICASSP, Interspeech, NeurIPS, and ICML (excluding HMM-based methods).\nASSISTANT: Should we prioritize surveys and seminal works?\nUSER: Yes—prioritize surveys and seminal works.\nASSISTANT: Should we emphasize wav2vec, conformer, and streaming ASR as the sub-topics?\nUSER: Yes—wav2vec, conformer, and streaming ASR should be emphasized.\nASSISTANT: Should we focus on ICASSP, Interspeech, NeurIPS, and ICML as the preferred venues?\nUSER: Yes—these are the preferred venues."
+  },
+  {
+    "persona_id": 19,
+    "initial_query": "few-shot learning",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "few-shot learning"
+      },
+      {
+        "role": "assistant",
+        "content": "To confirm, is your specific topic task-agnostic meta-learning for few-shot classification?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, task-agnostic meta-learning for few-shot classification."
+      },
+      {
+        "role": "assistant",
+        "content": "Which sub-topics should I prioritize (e.g., MAML variants, metric learning, prototypical networks)?"
+      },
+      {
+        "role": "user",
+        "content": "- MAML variants\n- metric learning\n- prototypical networks"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want both foundational and recent advances, or should I focus on one of these?"
+      },
+      {
+        "role": "user",
+        "content": "Both foundational and recent advances."
+      },
+      {
+        "role": "assistant",
+        "content": "Which venues should I prioritize—ICML, NeurIPS, and ICLR only, or include others?"
+      },
+      {
+        "role": "user",
+        "content": "Prioritize ICML, NeurIPS, and ICLR only."
+      }
+    ],
+    "conversation_text": "USER: few-shot learning\nASSISTANT: To confirm, is your specific topic task-agnostic meta-learning for few-shot classification?\nUSER: Yes, task-agnostic meta-learning for few-shot classification.\nASSISTANT: Which sub-topics should I prioritize (e.g., MAML variants, metric learning, prototypical networks)?\nUSER: - MAML variants\n- metric learning\n- prototypical networks\nASSISTANT: Do you want both foundational and recent advances, or should I focus on one of these?\nUSER: Both foundational and recent advances.\nASSISTANT: Which venues should I prioritize—ICML, NeurIPS, and ICLR only, or include others?\nUSER: Prioritize ICML, NeurIPS, and ICLR only."
+  },
+  {
+    "persona_id": 20,
+    "initial_query": "vision language",
+    "turns": 4,
+    "conversation_messages": [
+      {
+        "role": "user",
+        "content": "vision language"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want the specific topic to be vision-language pre-training for image-text retrieval?"
+      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "Which sub-topics should we focus on (CLIP, ALIGN, contrastive learning, cross-modal attention)?"
+      },
+      {
+        "role": "user",
+        "content": "- CLIP\n- ALIGN\n- contrastive learning\n- cross-modal attention"
+      },
+      {
+        "role": "assistant",
+        "content": "Should we focus on novel method papers?"
+      },
+      {
+        "role": "user",
+        "content": "Yes—focus on novel method papers."
+      },
+      {
+        "role": "assistant",
+        "content": "Which venues should we focus on (CVPR, ICCV, ECCV, NeurIPS, ICML)?"
+      },
+      {
+        "role": "user",
+        "content": "CVPR, ICCV, ECCV, NeurIPS, and ICML."
+      }
+    ],
+    "conversation_text": "USER: vision language\nASSISTANT: Do you want the specific topic to be vision-language pre-training for image-text retrieval?\nUSER: Yes.\nASSISTANT: Which sub-topics should we focus on (CLIP, ALIGN, contrastive learning, cross-modal attention)?\nUSER: - CLIP\n- ALIGN\n- contrastive learning\n- cross-modal attention\nASSISTANT: Should we focus on novel method papers?\nUSER: Yes—focus on novel method papers.\nASSISTANT: Which venues should we focus on (CVPR, ICCV, ECCV, NeurIPS, ICML)?\nUSER: CVPR, ICCV, ECCV, NeurIPS, and ICML."
+  }
+]

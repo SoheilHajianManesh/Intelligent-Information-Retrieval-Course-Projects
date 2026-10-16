@@ -1,0 +1,22 @@
+# LLM and API
+openai
+
+# Vector Database
+lancedb
+
+# PDF Processing
+pymupdf4llm
+PyMuPDF
+llama-parse
+llama-index
+
+# Data Processing
+pandas
+numpy
+openpyxl
+
+# Machine Learning/Metrics
+scikit-learn
+
+# Utilities
+tqdm

@@ -1,0 +1,220 @@
+persona_id,initial_query,rewritten_query,turns,conversation_text
+1,neural networks,"Conference papers on BERT-based and cross-encoder neural ranking models for passage retrieval in Information Retrieval, excluding pure theoretical work.",9,"USER: neural networks
+ASSISTANT: Which specific topic within Information Retrieval would you like to focus on?
+USER: Neural ranking models for passage retrieval
+ASSISTANT: Which sub-topics within neural ranking should we focus on (e.g., BERT-based rankers, cross-encoders)?
+USER: - BERT-based rankers
+- Cross-encoders
+ASSISTANT: What type of papers should I focus on (conference, journal, or surveys)?
+USER: Conference papers.
+ASSISTANT: Should I exclude pure theoretical papers, or are there any other categories you want me to omit?
+USER: Exclude pure theoretical papers; no other categories specified."
+2,deep learning,"Sequential recommender systems with transformers, prioritizing self-attention and session-based; surveys and empirical papers; RecSys, WWW, KDD",9,"USER: deep learning
+ASSISTANT: Which specific topic within Recommender Systems should we focus on?
+USER: Sequential recommendation with transformers.
+ASSISTANT: Which sub-topics should we prioritize: session-based recommendation or self-attention mechanisms?
+USER: - Self-attention mechanisms (primary)
+- Session-based recommendation (secondary)
+ASSISTANT: Do you want both survey and empirical papers, or should we focus on one type?
+USER: Both survey and empirical.
+ASSISTANT: Which venues should we prioritize: RecSys, WWW, or KDD?
+USER: RecSys, WWW, and KDD."
+3,BERT models,"Empirical studies on cross-lingual transfer for low-resource languages using mBERT, XLM-R, and adapter-based methods, prioritizing ACL/EMNLP/NAACL/EACL.",9,"USER: BERT models
+ASSISTANT: What specific topic related to BERT models should we focus on?
+USER: Cross-lingual transfer learning for low-resource languages.
+ASSISTANT: Which sub-topics should we focus on—mBERT, XLM-R, and/or adapter-based methods?
+USER: - mBERT
+- XLM-R
+- adapter-based methods
+ASSISTANT: Should I focus on empirical studies only, or include other paper types as well?
+USER: Focus on empirical studies only.
+ASSISTANT: Should I prioritize papers from ACL, EMNLP, NAACL, and EACL?
+USER: Yes—prioritize ACL, EMNLP, NAACL, and EACL."
+4,transformers,"Vision transformers for object detection: DETR variants, patch embedding; conference papers CVPR ICCV ECCV NeurIPS, novel methods with code.",9,"USER: transformers
+ASSISTANT: To confirm, is your specific topic vision transformers for object detection?
+USER: Yes, vision transformers for object detection.
+ASSISTANT: Which sub-topics should I focus on (e.g., DETR variants, patch embedding strategies)?
+USER: - DETR variants
+- Patch embedding strategies
+ASSISTANT: Which type of papers should I include (conference proceedings, journal articles, or surveys)?
+USER: Conference proceedings (CVPR, ICCV, ECCV, NeurIPS).
+ASSISTANT: Should I restrict to novel method papers with code available?
+USER: Yes—restrict to novel method papers with code available."
+5,graph learning,"Graph neural networks for node classification: message passing, graph attention, over-smoothing; foundational and survey papers from ICML, NeurIPS, ICLR, KDD",9,"USER: graph learning
+ASSISTANT: What specific topic within Graph Machine Learning should we focus on?
+USER: Graph neural networks for node classification.
+ASSISTANT: Which sub-topics within GNNs for node classification should we prioritize (e.g., message passing, graph attention networks, over-smoothing)?
+USER: - Message passing
+- Graph attention networks
+- Over-smoothing problem
+ASSISTANT: Should we focus on foundational papers, recent surveys, or both?
+USER: Both—foundational papers and recent surveys.
+ASSISTANT: Which venues should we prioritize (e.g., ICML, NeurIPS, ICLR, KDD)?
+USER: - ICML
+- NeurIPS
+- ICLR
+- KDD"
+6,question answering,"Conversational QA over knowledge bases, multi-hop reasoning and context tracking, empirical studies with datasets, venues: ACL, EMNLP, NAACL",9,"USER: question answering
+ASSISTANT: Should the specific topic be conversational question answering over knowledge bases?
+USER: Yes.
+ASSISTANT: Should the sub-topics be multi-hop reasoning and context tracking?
+USER: Yes.
+ASSISTANT: Should the paper type be empirical studies with datasets?
+USER: Yes.
+ASSISTANT: Should the preferred venues be ACL, EMNLP, and NAACL?
+USER: Yes: ACL, EMNLP, and NAACL."
+7,reinforcement learning,"RLHF for LLMs: PPO scalability, reward modeling mitigating reward hacking, alignment/safety; NeurIPS, ICML, ICLR, ACL; exclude robotics.",9,"USER: reinforcement learning
+ASSISTANT: What specific topic within Natural Language Processing & Reinforcement Learning would you like to focus on?
+USER: Reinforcement learning from human feedback for LLMs.
+ASSISTANT: Which sub-topics or approaches within RLHF should we prioritize (e.g., PPO for language models, reward modeling, alignment)?
+USER: - PPO for language models (scalability)
+- Reward modeling (mitigate reward hacking)
+- Alignment (safety)
+ASSISTANT: Do you prefer conference papers, journal articles, or surveys?
+USER: Conference papers (NeurIPS, ICML, ICLR, ACL).
+ASSISTANT: Should I exclude robotics applications or anything else?
+USER: Yes—exclude robotics applications; no other exclusions specified."
+8,sentiment,"Aspect-based sentiment for product reviews: aspect extraction, opinion mining, multi-aspect; domain adaptation, multilingual; empirical 2019–2024 ACL/EMNLP/COLING/WSDM; exclude binary-only",9,"USER: sentiment
+ASSISTANT: Should I focus on aspect-based sentiment analysis for product reviews?
+USER: Yes—prioritize aspect-based sentiment analysis for product reviews, focusing on aspect extraction, opinion mining, and multi-aspect sentiment with domain adaptation and multilingual approaches in 2019–2024 empirical studies (ACL/EMNLP/COLING/WSDM), excluding binary-only sentiment.
+ASSISTANT: Should I exclude binary-only sentiment papers?
+USER: Yes—exclude binary-only sentiment papers.
+ASSISTANT: Which sub-topics within aspect-based sentiment analysis should I prioritize (e.g., aspect extraction, opinion mining, multi-aspect sentiment)?
+USER: - aspect extraction
+- opinion mining
+- multi-aspect sentiment
+ASSISTANT: Should I focus on empirical studies?
+USER: Yes."
+9,distributed learning,"Federated learning with non-IID data, novel methods, venues: ICML, NeurIPS, ICLR, MLSys",9,"USER: distributed learning
+ASSISTANT: Are you specifically interested in federated learning with non-IID data within distributed learning?
+USER: Yes—specifically federated learning with non-IID data.
+ASSISTANT: Which sub-topics should we prioritize: personalization, communication efficiency, or heterogeneous clients?
+USER: Not specified in my information need.
+ASSISTANT: Do you want to focus strictly on novel methods papers?
+USER: Yes—strictly novel methods.
+ASSISTANT: Should we limit results to ICML, NeurIPS, ICLR, and MLSys?
+USER: Yes—limit to ICML, NeurIPS, ICLR, and MLSys."
+10,NLP extraction,"Joint entity-relation extraction with transformers, end-to-end and span-based; dataset benchmarks and low-resource; exclude pipelines; surveys and representative papers; ACL/EMNLP/NAACL only.",9,"USER: NLP extraction
+ASSISTANT: To confirm, is your specific topic joint entity and relation extraction using transformers?
+USER: Yes, my specific topic is joint entity and relation extraction using transformers.
+ASSISTANT: Should we focus on end-to-end models, span-based extraction, or both?
+USER: Both—end-to-end and span-based—prioritizing dataset benchmarks and low-resource scenarios, and excluding pipeline approaches.
+ASSISTANT: Do you want surveys only, or both surveys and representative method papers?
+USER: Both surveys and representative method papers.
+ASSISTANT: Should we prioritize ACL, EMNLP, and NAACL only, or include other venues as well?
+USER: Prioritize ACL, EMNLP, and NAACL only."
+11,model robustness,"Adversarial attacks on vision transformers: attention-based and patch-based perturbations plus certified defenses; novel methods only; exclude surveys, benchmarks, analyses.",9,"USER: model robustness
+ASSISTANT: Are you specifically looking for adversarial attacks on vision transformers?
+USER: Yes—specifically adversarial attacks on vision transformers.
+ASSISTANT: Which sub-topics would you like to prioritize: attention-based attacks, patch-based perturbations, or certified defenses?
+USER: Not specified in my information need.
+ASSISTANT: Should I include all three sub-topics (attention-based attacks, patch-based perturbations, and certified defenses) or focus on a subset?
+USER: Include all three sub-topics.
+ASSISTANT: Should I restrict to papers proposing novel methods and exclude surveys, benchmarks, and analyses?
+USER: Yes—focus on papers with novel methods and exclude surveys, benchmarks, and analyses."
+12,conversational AI,"Empirical code-available studies on task-oriented dialogue systems end-to-end: state tracking; policy learning (few-shot, multi-domain transfer); ACL EMNLP SIGdial NAACL; GPT-based",9,"USER: conversational AI
+ASSISTANT: To confirm, is your specific topic task-oriented dialogue systems with end-to-end learning?
+USER: Yes.
+ASSISTANT: Which sub-topics should I prioritize: dialogue state tracking, policy learning, or GPT-based dialogue?
+USER: - Prioritize: dialogue state tracking and policy learning (focused on few-shot adaptation and multi-domain transfer)
+- Secondary: GPT-based dialogue
+ASSISTANT: Should I restrict to empirical studies with code?
+USER: Yes—restrict to empirical studies with code.
+ASSISTANT: Should I prioritize ACL, EMNLP, SIGdial, and NAACL, or include other venues?
+USER: Prioritize ACL, EMNLP, SIGdial, and NAACL."
+13,interpretability,"Attention-based explanations in NLP: attention visualization, rationale extraction, faithfulness; theoretical and empirical papers; venues ACL, EMNLP, NeurIPS, ICLR, ICML",9,"USER: interpretability
+ASSISTANT: Do you want to focus on attention-based explanations for NLP models as your specific topic?
+USER: Yes, attention-based explanations for NLP models.
+ASSISTANT: Which sub-topics should I focus on among attention visualization, rationale extraction, and faithfulness of explanations?
+USER: - attention visualization
+- rationale extraction
+- faithfulness of explanations
+ASSISTANT: Should I include both theoretical and empirical papers?
+USER: Yes—include both theoretical and empirical papers.
+ASSISTANT: Which venues should I prioritize (ACL, EMNLP, NeurIPS, ICML, ICLR)?
+USER: - First priority: ACL, EMNLP
+- Next: NeurIPS, ICLR, ICML"
+14,medical imaging,"Deep learning for medical image segmentation: surveys and accessible papers, U-Net variants, 3D and organ segmentation, limited data, clinical validation",9,"USER: medical imaging
+ASSISTANT: What specific topic within medical imaging should I focus on (e.g., deep learning for image segmentation)?
+USER: Deep learning for medical image segmentation.
+ASSISTANT: Which sub-topics or approaches within medical image segmentation should I prioritize (e.g., U-Net variants, 3D segmentation, organ segmentation)?
+USER: - U-Net variants
+- 3D segmentation
+- Organ segmentation
+ASSISTANT: What types of papers should I focus on (e.g., surveys, tutorials, conference or journal articles)?
+USER: Surveys and accessible papers.
+ASSISTANT: Which specific aspects should I emphasize (e.g., limited training data, clinical validation)?
+USER: - Limited training data
+- Clinical validation"
+15,forecasting,"Transformer-based multivariate time series forecasting; long sequence modeling, missing data; Autoformer, Informer, temporal attention; novel conference papers with benchmarks (NeurIPS/ICML/ICLR/AAAI/KDD)",9,"USER: forecasting
+ASSISTANT: Which specific topic within Time Series Analysis would you like to focus on?
+USER: Transformer-based models for multivariate time series forecasting.
+ASSISTANT: Which sub-topics or approaches should we prioritize (e.g., temporal attention, Informer, Autoformer)?
+USER: - Autoformer — prioritize for long sequence modeling benchmarks.
+- Informer — prioritize for efficient long sequence forecasting.
+- Temporal attention variants — prioritize those tailored to missing data handling in multivariate settings.
+ASSISTANT: Should I focus on conference papers proposing novel methods with benchmarks, or include journal articles and surveys as well?
+USER: Focus on conference papers proposing novel methods with benchmarks (NeurIPS, ICML, ICLR, AAAI, KDD).
+ASSISTANT: Should I emphasize long sequence modeling and missing data handling, or include other aspects as well?
+USER: Emphasize long sequence modeling and missing data handling; no other aspects are needed."
+16,code generation,"Empirical studies on LLM code generation and completion (Codex, CodeT5, program synthesis, code understanding) at ICSE, FSE, ACL, EMNLP, NeurIPS",9,"USER: code generation
+ASSISTANT: What specific topic within code generation are you interested in?
+USER: Large language models for code generation and completion.
+ASSISTANT: Which sub-topics do you want to focus on (e.g., Codex, CodeT5, program synthesis, code understanding)?
+USER: - Codex
+- CodeT5
+- Program synthesis
+- Code understanding
+ASSISTANT: Do you want only empirical studies?
+USER: Yes, only empirical studies.
+ASSISTANT: Which venues should I prioritize (ICSE, FSE, ACL, EMNLP, NeurIPS)?
+USER: - ICSE, FSE
+- ACL, EMNLP
+- NeurIPS"
+17,causal models,"Causal representation learning in deep neural networks; identifiability, disentanglement, causal discovery; theoretical with empirical validation; NeurIPS, ICML, ICLR, UAI, AISTATS.",9,"USER: causal models
+ASSISTANT: What specific topic within causal inference and machine learning would you like to focus on?
+USER: Causal representation learning in deep neural networks.
+ASSISTANT: Which sub-topics should we prioritize (e.g., identifiability, disentanglement, causal discovery)?
+USER: - Identifiability
+- Disentanglement
+- Causal discovery
+ASSISTANT: What kind of papers should we prioritize—e.g., theoretical with empirical validation, purely empirical, or surveys?
+USER: Theoretical papers with empirical validation.
+ASSISTANT: Which venues should we prioritize (e.g., NeurIPS, ICML, ICLR, UAI, AISTATS)?
+USER: - NeurIPS
+- ICML
+- ICLR
+- UAI
+- AISTATS"
+18,speech processing,"End-to-end transformer ASR: wav2vec, conformer, streaming; low-resource/noisy; 2020–2024 surveys/seminal works from ICASSP/Interspeech/NeurIPS/ICML; exclude HMM-based methods",9,"USER: speech processing
+ASSISTANT: Should we focus on end-to-end speech recognition with transformers?
+USER: Yes—focus on end-to-end transformer-based ASR, emphasizing wav2vec, conformer, and streaming ASR for low-resource and noisy environments, guided by 2020–2024 surveys/seminal works from ICASSP, Interspeech, NeurIPS, and ICML (excluding HMM-based methods).
+ASSISTANT: Should we prioritize surveys and seminal works?
+USER: Yes—prioritize surveys and seminal works.
+ASSISTANT: Should we emphasize wav2vec, conformer, and streaming ASR as the sub-topics?
+USER: Yes—wav2vec, conformer, and streaming ASR should be emphasized.
+ASSISTANT: Should we focus on ICASSP, Interspeech, NeurIPS, and ICML as the preferred venues?
+USER: Yes—these are the preferred venues."
+19,few-shot learning,"Task-agnostic few-shot classification meta-learning: MAML variants, metric learning, prototypical networks; foundational and recent; ICML, NeurIPS, ICLR only.",9,"USER: few-shot learning
+ASSISTANT: To confirm, is your specific topic task-agnostic meta-learning for few-shot classification?
+USER: Yes, task-agnostic meta-learning for few-shot classification.
+ASSISTANT: Which sub-topics should I prioritize (e.g., MAML variants, metric learning, prototypical networks)?
+USER: - MAML variants
+- metric learning
+- prototypical networks
+ASSISTANT: Do you want both foundational and recent advances, or should I focus on one of these?
+USER: Both foundational and recent advances.
+ASSISTANT: Which venues should I prioritize—ICML, NeurIPS, and ICLR only, or include others?
+USER: Prioritize ICML, NeurIPS, and ICLR only."
+20,vision language,"Vision-language pre-training for image-text retrieval, novel method papers on CLIP, ALIGN, contrastive learning, cross-modal attention at CVPR/ICCV/ECCV/NeurIPS/ICML",9,"USER: vision language
+ASSISTANT: Do you want the specific topic to be vision-language pre-training for image-text retrieval?
+USER: Yes.
+ASSISTANT: Which sub-topics should we focus on (CLIP, ALIGN, contrastive learning, cross-modal attention)?
+USER: - CLIP
+- ALIGN
+- contrastive learning
+- cross-modal attention
+ASSISTANT: Should we focus on novel method papers?
+USER: Yes—focus on novel method papers.
+ASSISTANT: Which venues should we focus on (CVPR, ICCV, ECCV, NeurIPS, ICML)?
+USER: CVPR, ICCV, ECCV, NeurIPS, and ICML."
